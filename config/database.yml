@@ -17,7 +17,7 @@
 development:
   adapter: mysql
   encoding: utf8
-  database: railsspace_development
+  database: rails_space_development
   username: root
   password:
   host: localhost
@@ -28,7 +28,7 @@ development:
 test:
   adapter: mysql
   encoding: utf8
-  database: railsspace_test
+  database: rails_space_test
   username: root
   password:
   host: localhost
@@ -36,7 +36,7 @@ test:
 production:
   adapter: mysql
   encoding: utf8
-  database: railsspace_production
+  database: rails_space_production
   username: root
   password: 
   host: localhost
