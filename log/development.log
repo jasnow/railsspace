@@ -687,3 +687,687 @@ Migrating to AddUserTimestamps (20090508233247)
   [4;35;1mSQL (0.020576)[0m   [0mSHOW FIELDS FROM `users`[0m
   [4;36;1mSQL (0.016197)[0m   [0;1mdescribe `users`[0m
   [4;35;1mSQL (0.007797)[0m   [0mSHOW KEYS FROM `users`[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-08 19:39:53) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/register" with {:method=>:get}):
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    :1:in `start'
+
+Rendering C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-08 19:41:34) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/register" with {:method=>:get}):
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    :1:in `start'
+
+Rendering C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-08 19:41:43) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/user/register" with {:method=>:get}):
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    :1:in `start'
+
+Rendering C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-08 19:41:49) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/user/" with {:method=>:get}):
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    :1:in `start'
+
+Rendering C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-08 19:41:53) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/site
+Rendering site/index
+Completed in 0.01256 (79 reqs/sec) | Rendering: 0.00977 (77%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-08 19:41:56) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/site
+Rendering site/help
+Completed in 0.01154 (86 reqs/sec) | Rendering: 0.00852 (73%) | DB: 0.00000 (0%) | 200 OK [http://localhost/site/help]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-08 19:41:57) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/site
+Rendering site/about
+Completed in 0.02369 (42 reqs/sec) | Rendering: 0.01581 (66%) | DB: 0.00000 (0%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-08 19:41:58) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/site
+Rendering site/index
+Completed in 0.01129 (88 reqs/sec) | Rendering: 0.00885 (78%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing Base#index (for 127.0.0.1 at 2009-05-08 19:51:51) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {}
+
+
+SyntaxError (C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/app/controllers/application.rb:1: , unexpected tLT
+):
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:105:in `require_or_load'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:18:in `define_dispatcher_callbacks'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:177:in `call'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:177:in `evaluate_method'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:161:in `call'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `each'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:272:in `run_callbacks'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:128:in `reload_application'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:173:in `evaluate_method'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:161:in `call'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `each'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:272:in `run_callbacks'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:106:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    :1:in `start'
+
+Rendering C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing Base#index (for 127.0.0.1 at 2009-05-08 19:52:11) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {}
+
+
+SyntaxError (C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/app/controllers/application.rb:1: , unexpected tLT
+):
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:105:in `require_or_load'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:18:in `define_dispatcher_callbacks'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:177:in `call'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:177:in `evaluate_method'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:161:in `call'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `each'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:272:in `run_callbacks'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:128:in `reload_application'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:173:in `evaluate_method'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:161:in `call'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `each'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:272:in `run_callbacks'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:106:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    :1:in `start'
+
+Rendering C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing Base#index (for 127.0.0.1 at 2009-05-08 19:52:21) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {}
+
+
+SyntaxError (C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/app/controllers/application.rb:1: , unexpected tLT
+):
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:105:in `require_or_load'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:18:in `define_dispatcher_callbacks'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:177:in `call'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:177:in `evaluate_method'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:161:in `call'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `each'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:272:in `run_callbacks'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:128:in `reload_application'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:173:in `evaluate_method'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:161:in `call'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `each'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:272:in `run_callbacks'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:106:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    :1:in `start'
+
+Rendering C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing Base#index (for 127.0.0.1 at 2009-05-08 19:54:02) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {}
+
+
+SyntaxError (C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/app/controllers/application.rb:1: , unexpected tLT
+):
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:105:in `require_or_load'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:60:in `depend_on'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:456:in `require_dependency'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:18:in `define_dispatcher_callbacks'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:177:in `call'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:177:in `evaluate_method'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:161:in `call'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `each'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:272:in `run_callbacks'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:128:in `reload_application'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:173:in `evaluate_method'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:161:in `call'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `each'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:90:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/callbacks.rb:272:in `run_callbacks'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:106:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    :1:in `start'
+
+Rendering C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-08 19:57:04) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"index"}
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.001196)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.001175)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.06770 (14 reqs/sec) | Rendering: 0.06124 (90%) | DB: 0.00237 (3%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-08 19:57:07) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.02038 (49 reqs/sec) | Rendering: 0.01575 (77%) | DB: 0.00000 (0%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-08 19:57:08) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.01572 (63 reqs/sec) | Rendering: 0.01172 (74%) | DB: 0.00000 (0%) | 200 OK [http://localhost/site/help]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-08 19:57:09) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.02207 (45 reqs/sec) | Rendering: 0.01810 (82%) | DB: 0.00000 (0%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-08 19:57:10) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.02780 (35 reqs/sec) | Rendering: 0.02268 (81%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-08 19:58:44) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.02426 (41 reqs/sec) | Rendering: 0.01751 (72%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-08 19:58:46) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.02380 (42 reqs/sec) | Rendering: 0.02115 (88%) | DB: 0.00000 (0%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-08 19:58:47) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.02828 (35 reqs/sec) | Rendering: 0.02497 (88%) | DB: 0.00000 (0%) | 200 OK [http://localhost/site/help]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-08 19:59:00) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.01124 (88 reqs/sec) | Rendering: 0.00887 (78%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-08 19:59:03) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.09520 (10 reqs/sec) | Rendering: 0.09197 (96%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-08 19:59:26) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"index"}
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000830)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000912)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.07289 (13 reqs/sec) | Rendering: 0.06627 (90%) | DB: 0.00174 (2%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-08 19:59:30) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.02752 (36 reqs/sec) | Rendering: 0.02154 (78%) | DB: 0.00000 (0%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-08 19:59:31) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.01460 (68 reqs/sec) | Rendering: 0.01122 (76%) | DB: 0.00000 (0%) | 200 OK [http://localhost/site/help]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-05-08 19:59:47) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/register" with {:method=>:get}):
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    :1:in `start'
+
+Rendering C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-08 19:59:51) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.02252 (44 reqs/sec) | Rendering: 0.01733 (76%) | DB: 0.00000 (0%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-08 19:59:51) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.01661 (60 reqs/sec) | Rendering: 0.01370 (82%) | DB: 0.00000 (0%) | 200 OK [http://localhost/site/help]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-08 19:59:52) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.01675 (59 reqs/sec) | Rendering: 0.01135 (67%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-08 20:00:57) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.04145 (24 reqs/sec) | Rendering: 0.03725 (89%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-08 20:00:59) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.02782 (35 reqs/sec) | Rendering: 0.02383 (85%) | DB: 0.00000 (0%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-08 20:01:00) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.06661 (15 reqs/sec) | Rendering: 0.06425 (96%) | DB: 0.00000 (0%) | 200 OK [http://localhost/site/help]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-08 20:01:01) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.02325 (43 reqs/sec) | Rendering: 0.02004 (86%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-08 20:01:01) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--5be26fc27aa9b3631e39b18af76e0e2902b2defa
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Completed in 0.10387 (9 reqs/sec) | Rendering: 0.10071 (96%) | DB: 0.00000 (0%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-08 20:01:17) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWJjZmJiZWFlODg2N2YwNjZm
+ZTMwMDVkYWM4ZTM0MTk=--bcf2b15c74d5ed94856b295485875411d925cc3e
+  Parameters: {"authenticity_token"=>"f331c074344f02acb6ecac4a789025fe5289ee39", "user"=>{"screen_name"=>"alsnow", "email"=>"a@a.com", "password"=>"alsnow"}, "commit"=>"Register!", "controller"=>"user", "action"=>"register"}
+  [4;36;1mUser Columns (0.014656)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.001450)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.001615)[0m   [0;1mSELECT `screen_name` FROM `users` WHERE (`users`.screen_name = 'alsnow') [0m
+  [4;35;1mSQL (0.000979)[0m   [0mSELECT `email` FROM `users` WHERE (`users`.email = 'a@a.com') [0m
+  [4;36;1mUser Create (0.000801)[0m   [0;1mINSERT INTO `users` (`screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES('alsnow', 'a@a.com', 'alsnow', '2009-05-09 00:01:17', '2009-05-09 00:01:17')[0m
+  [4;35;1mSQL (0.027410)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/user
+Completed in 0.11509 (8 reqs/sec) | DB: 0.04691 (40%) | 302 Found [http://localhost/user/register]
+
+
+Processing UserController#index (for 127.0.0.1 at 2009-05-08 20:01:17) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsGOgtub3RpY2UiGVVzZXIgYWxzbm93IGNyZWF0ZWQhBjoKQHVzZWR7
+BjsGRjoMY3NyZl9pZCIlYWJjZmJiZWFlODg2N2YwNjZmZTMwMDVkYWM4ZTM0
+MTk=--8c9e9703b946f3c24b5e1de7cd2d85eb4a0fb249
+  Parameters: {"controller"=>"user", "action"=>"index"}
+Rendering template within layouts/application
+Rendering user/index
+Completed in 0.02150 (46 reqs/sec) | Rendering: 0.01855 (86%) | DB: 0.00000 (0%) | 200 OK [http://localhost/user]
+
+
+Processing UserController#index (for 127.0.0.1 at 2009-05-08 20:02:15) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsGOgtub3RpY2UiGVVzZXIgYWxzbm93IGNyZWF0ZWQhBjoKQHVzZWR7
+BjsGVDoMY3NyZl9pZCIlYWJjZmJiZWFlODg2N2YwNjZmZTMwMDVkYWM4ZTM0
+MTk=--9815e02eda843460b35c4be319a92d2c3818c32d
+  Parameters: {"controller"=>"user", "action"=>"index"}
+Rendering template within layouts/application
+Rendering user/index
+Completed in 0.04326 (23 reqs/sec) | Rendering: 0.04080 (94%) | DB: 0.00000 (0%) | 200 OK [http://localhost/user]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-08 20:02:18) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWJjZmJiZWFlODg2N2YwNjZm
+ZTMwMDVkYWM4ZTM0MTk=--bcf2b15c74d5ed94856b295485875411d925cc3e
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.02874 (34 reqs/sec) | Rendering: 0.02584 (89%) | DB: 0.00000 (0%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-08 20:02:19) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWJjZmJiZWFlODg2N2YwNjZm
+ZTMwMDVkYWM4ZTM0MTk=--bcf2b15c74d5ed94856b295485875411d925cc3e
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.02631 (38 reqs/sec) | Rendering: 0.01823 (69%) | DB: 0.00000 (0%) | 200 OK [http://localhost/site/help]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-08 20:02:20) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWJjZmJiZWFlODg2N2YwNjZm
+ZTMwMDVkYWM4ZTM0MTk=--bcf2b15c74d5ed94856b295485875411d925cc3e
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Completed in 0.03121 (32 reqs/sec) | Rendering: 0.02582 (82%) | DB: 0.00000 (0%) | 200 OK [http://localhost/user/register]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-08 20:02:23) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWJjZmJiZWFlODg2N2YwNjZm
+ZTMwMDVkYWM4ZTM0MTk=--bcf2b15c74d5ed94856b295485875411d925cc3e
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.03411 (29 reqs/sec) | Rendering: 0.02614 (76%) | DB: 0.00000 (0%) | 200 OK [http://localhost/site/help]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-08 20:02:24) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWJjZmJiZWFlODg2N2YwNjZm
+ZTMwMDVkYWM4ZTM0MTk=--bcf2b15c74d5ed94856b295485875411d925cc3e
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.01599 (62 reqs/sec) | Rendering: 0.01337 (83%) | DB: 0.00000 (0%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-08 20:02:24) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWJjZmJiZWFlODg2N2YwNjZm
+ZTMwMDVkYWM4ZTM0MTk=--bcf2b15c74d5ed94856b295485875411d925cc3e
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.02593 (38 reqs/sec) | Rendering: 0.02324 (89%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-08 20:03:34) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWJjZmJiZWFlODg2N2YwNjZm
+ZTMwMDVkYWM4ZTM0MTk=--bcf2b15c74d5ed94856b295485875411d925cc3e
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.02504 (39 reqs/sec) | Rendering: 0.02231 (89%) | DB: 0.00000 (0%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-08 20:03:36) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWJjZmJiZWFlODg2N2YwNjZm
+ZTMwMDVkYWM4ZTM0MTk=--bcf2b15c74d5ed94856b295485875411d925cc3e
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.01847 (54 reqs/sec) | Rendering: 0.01202 (65%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-08 20:03:37) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWJjZmJiZWFlODg2N2YwNjZm
+ZTMwMDVkYWM4ZTM0MTk=--bcf2b15c74d5ed94856b295485875411d925cc3e
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.01202 (83 reqs/sec) | Rendering: 0.00977 (81%) | DB: 0.00000 (0%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-08 20:03:43) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWJjZmJiZWFlODg2N2YwNjZm
+ZTMwMDVkYWM4ZTM0MTk=--bcf2b15c74d5ed94856b295485875411d925cc3e
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.02266 (44 reqs/sec) | Rendering: 0.01578 (69%) | DB: 0.00000 (0%) | 200 OK [http://localhost/site/help]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-08 20:03:44) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWJjZmJiZWFlODg2N2YwNjZm
+ZTMwMDVkYWM4ZTM0MTk=--bcf2b15c74d5ed94856b295485875411d925cc3e
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Completed in 0.07882 (12 reqs/sec) | Rendering: 0.07460 (94%) | DB: 0.00000 (0%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-08 20:04:49) [POST]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWJjZmJiZWFlODg2N2YwNjZm
+ZTMwMDVkYWM4ZTM0MTk=--bcf2b15c74d5ed94856b295485875411d925cc3e
+  Parameters: {"authenticity_token"=>"f331c074344f02acb6ecac4a789025fe5289ee39", "user"=>{"screen_name"=>"foobar", "email"=>"foobar@example.com", "password"=>"password"}, "commit"=>"Register!", "controller"=>"user", "action"=>"register"}
+  [4;36;1mUser Columns (0.009167)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mSQL (0.001016)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.001823)[0m   [0;1mSELECT `screen_name` FROM `users` WHERE (`users`.screen_name = 'foobar') [0m
+  [4;35;1mSQL (0.001496)[0m   [0mSELECT `email` FROM `users` WHERE (`users`.email = 'foobar@example.com') [0m
+  [4;36;1mUser Create (0.001172)[0m   [0;1mINSERT INTO `users` (`screen_name`, `email`, `password`, `created_at`, `updated_at`) VALUES('foobar', 'foobar@example.com', 'password', '2009-05-09 00:04:49', '2009-05-09 00:04:49')[0m
+  [4;35;1mSQL (0.047777)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/user
+Completed in 0.10819 (9 reqs/sec) | DB: 0.06245 (57%) | 302 Found [http://localhost/user/register]
+
+
+Processing UserController#index (for 127.0.0.1 at 2009-05-08 20:04:49) [GET]
+  Session ID: BAh7ByIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsGOgtub3RpY2UiGVVzZXIgZm9vYmFyIGNyZWF0ZWQhBjoKQHVzZWR7
+BjsGRjoMY3NyZl9pZCIlYWJjZmJiZWFlODg2N2YwNjZmZTMwMDVkYWM4ZTM0
+MTk=--34327690a86447b38571d891a176b299a0edcf3c
+  Parameters: {"controller"=>"user", "action"=>"index"}
+Rendering template within layouts/application
+Rendering user/index
+Completed in 0.02876 (34 reqs/sec) | Rendering: 0.02682 (93%) | DB: 0.00000 (0%) | 200 OK [http://localhost/user]
