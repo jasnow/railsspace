@@ -7,7 +7,7 @@ class SiteController; def rescue_action(e) raise e end; end
 class SiteControllerTest < Test::Unit::TestCase
   def setup
     @controller = SiteController.new
-    @request     = ActionController::TestRequest.new
+    @request    = ActionController::TestRequest.new
     @response   = ActionController::TestResponse.new
   end
 
@@ -33,5 +33,16 @@ class SiteControllerTest < Test::Unit::TestCase
     assert_equal "RailsSpace Help", title
     assert_response :success
     assert_template "help"
+  end
+
+  # Test the navigation menu before login.
+  def test_navigation_not_logged_in
+    get :index
+    assert_tag "a", :content => /Register/,
+               :attributes => { :href => "/user/register" }
+    assert_tag "a", :content => /Login/,
+               :attributes => { :href => "/user/login" }
+    # Test link_to_unless_current.
+    assert_no_tag "a", :content => /Home/
   end
 end
