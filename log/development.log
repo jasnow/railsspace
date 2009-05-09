@@ -2241,3 +2241,763 @@ WARNING: You're using the Ruby-based MySQL library that ships with Rails. This l
   [4;35;1mSQL (0.013000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090509004615')[0m
   [4;36;1mSQL (0.024000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090508232714')[0m
   [4;35;1mSQL (0.027000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090508233247')[0m
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-08 22:02:24) [GET]
+  Session ID: BAh7CCIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWJjZmJiZWFlODg2N2YwNjZm
+ZTMwMDVkYWM4ZTM0MTk6DHVzZXJfaWQw--35684923f7bd1dee0db321c212e22029518e9491
+  Parameters: {"controller"=>"user", "action"=>"login"}
+Rendering template within layouts/application
+Rendering user/login
+Completed in 0.05820 (17 reqs/sec) | Rendering: 0.05604 (96%) | DB: 0.00000 (0%) | 200 OK [http://localhost/user/login]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-08 22:02:24) [GET]
+  Session ID: BAh7CCIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWJjZmJiZWFlODg2N2YwNjZm
+ZTMwMDVkYWM4ZTM0MTk6DHVzZXJfaWQw--35684923f7bd1dee0db321c212e22029518e9491
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.03197 (31 reqs/sec) | Rendering: 0.02997 (93%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-08 22:02:26) [GET]
+  Session ID: BAh7CCIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWJjZmJiZWFlODg2N2YwNjZm
+ZTMwMDVkYWM4ZTM0MTk6DHVzZXJfaWQw--35684923f7bd1dee0db321c212e22029518e9491
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.03360 (29 reqs/sec) | Rendering: 0.03159 (94%) | DB: 0.00000 (0%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-08 22:02:27) [GET]
+  Session ID: BAh7CCIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWJjZmJiZWFlODg2N2YwNjZm
+ZTMwMDVkYWM4ZTM0MTk6DHVzZXJfaWQw--35684923f7bd1dee0db321c212e22029518e9491
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.03724 (26 reqs/sec) | Rendering: 0.03515 (94%) | DB: 0.00000 (0%) | 200 OK [http://localhost/site/help]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-08 22:02:29) [GET]
+  Session ID: BAh7CCIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWJjZmJiZWFlODg2N2YwNjZm
+ZTMwMDVkYWM4ZTM0MTk6DHVzZXJfaWQw--35684923f7bd1dee0db321c212e22029518e9491
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Completed in 0.05141 (19 reqs/sec) | Rendering: 0.04925 (95%) | DB: 0.00000 (0%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-08 22:02:30) [GET]
+  Session ID: BAh7CCIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7ADoMY3NyZl9pZCIlYWJjZmJiZWFlODg2N2YwNjZm
+ZTMwMDVkYWM4ZTM0MTk6DHVzZXJfaWQw--35684923f7bd1dee0db321c212e22029518e9491
+  Parameters: {"controller"=>"user", "action"=>"login"}
+Rendering template within layouts/application
+Rendering user/login
+Completed in 0.05240 (19 reqs/sec) | Rendering: 0.05015 (95%) | DB: 0.00000 (0%) | 200 OK [http://localhost/user/login]
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-09 07:05:48) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.14389 (6 reqs/sec) | Rendering: 0.13783 (95%) | DB: 0.05171 (35%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-09 07:05:52) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.07790 (12 reqs/sec) | Rendering: 0.07164 (91%) | DB: 0.04020 (51%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-09 07:05:53) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.08314 (12 reqs/sec) | Rendering: 0.07909 (95%) | DB: 0.01738 (20%) | 200 OK [http://localhost/site/help]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-09 07:05:54) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+
+
+ActionView::TemplateError (No :secret given to the #protect_from_forgery call.  Set that or use a session store capable of generating its own keys (Cookie Session Store).) on line #2 of user/register.html.erb:
+1: <h2>Register</h2>
+2: <% form_for :user do |form| %>
+3:   <fieldset>
+4:     <legend>Enter Your Details</legend>
+5: 
+
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/request_forgery_protection.rb:115:in `form_authenticity_token'
+    (eval):2:in `form_authenticity_token'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:454:in `token_tag'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:431:in `extra_tags_for_form'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:439:in `form_tag_html'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:41:in `form_tag'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_helper.rb:252:in `form_for'
+    app/views/user/register.html.erb:2:in `_run_erb_47app47views47user47register46html46erb'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `execute'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:35:in `render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:841:in `render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_with_a_layout'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1157:in `default_render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1163:in `perform_action'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_with_filters'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_with_rescue'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action_with_caching'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action_with_caching'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_with_filters'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process_with_session_management_support'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    :1:in `start'
+
+Rendering C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-09 07:05:59) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"login"}
+Rendering template within layouts/application
+Rendering user/login
+
+
+ActionView::TemplateError (No :secret given to the #protect_from_forgery call.  Set that or use a session store capable of generating its own keys (Cookie Session Store).) on line #2 of user/login.rhtml:
+1: <h2>Log in</h2>
+2: <% form_for :user do |form| %>
+3: <fieldset>
+4:   <legend>Enter Your Details</legend>
+5: 
+
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/request_forgery_protection.rb:115:in `form_authenticity_token'
+    (eval):2:in `form_authenticity_token'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:454:in `token_tag'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:431:in `extra_tags_for_form'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:439:in `form_tag_html'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:41:in `form_tag'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_helper.rb:252:in `form_for'
+    app/views/user/login.rhtml:2:in `_run_erb_47app47views47user47login46rhtml'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `execute'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:35:in `render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:841:in `render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_with_a_layout'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1157:in `default_render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1163:in `perform_action'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_with_filters'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_with_rescue'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action_with_caching'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action_with_caching'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_with_filters'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process_with_session_management_support'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    :1:in `start'
+
+Rendering C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-09 07:06:19) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.05068 (19 reqs/sec) | Rendering: 0.04721 (93%) | DB: 0.00628 (12%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-09 07:06:20) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.04277 (23 reqs/sec) | Rendering: 0.04043 (94%) | DB: 0.00435 (10%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-09 07:06:21) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.11727 (8 reqs/sec) | Rendering: 0.10918 (93%) | DB: 0.00561 (4%) | 200 OK [http://localhost/site/help]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-09 07:06:22) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+
+
+ActionView::TemplateError (No :secret given to the #protect_from_forgery call.  Set that or use a session store capable of generating its own keys (Cookie Session Store).) on line #2 of user/register.html.erb:
+1: <h2>Register</h2>
+2: <% form_for :user do |form| %>
+3:   <fieldset>
+4:     <legend>Enter Your Details</legend>
+5: 
+
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/request_forgery_protection.rb:115:in `form_authenticity_token'
+    (eval):2:in `form_authenticity_token'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:454:in `token_tag'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:431:in `extra_tags_for_form'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:439:in `form_tag_html'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:41:in `form_tag'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_helper.rb:252:in `form_for'
+    app/views/user/register.html.erb:2:in `_run_erb_47app47views47user47register46html46erb'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `execute'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:35:in `render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:841:in `render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_with_a_layout'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1157:in `default_render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1163:in `perform_action'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_with_filters'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_with_rescue'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action_with_caching'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action_with_caching'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_with_filters'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process_with_session_management_support'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    :1:in `start'
+
+Rendering C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-09 07:06:35) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"login"}
+Rendering template within layouts/application
+Rendering user/login
+
+
+ActionView::TemplateError (No :secret given to the #protect_from_forgery call.  Set that or use a session store capable of generating its own keys (Cookie Session Store).) on line #2 of user/login.rhtml:
+1: <h2>Log in</h2>
+2: <% form_for :user do |form| %>
+3: <fieldset>
+4:   <legend>Enter Your Details</legend>
+5: 
+
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/request_forgery_protection.rb:115:in `form_authenticity_token'
+    (eval):2:in `form_authenticity_token'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:454:in `token_tag'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:431:in `extra_tags_for_form'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:439:in `form_tag_html'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:41:in `form_tag'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_helper.rb:252:in `form_for'
+    app/views/user/login.rhtml:2:in `_run_erb_47app47views47user47login46rhtml'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `execute'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:35:in `render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:841:in `render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_with_a_layout'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1157:in `default_render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1163:in `perform_action'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_with_filters'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_with_rescue'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action_with_caching'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action_with_caching'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_with_filters'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process_with_session_management_support'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    :1:in `start'
+
+Rendering C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-09 07:12:33) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"login"}
+Rendering template within layouts/application
+Rendering user/login
+
+
+ActionView::TemplateError (No :secret given to the #protect_from_forgery call.  Set that or use a session store capable of generating its own keys (Cookie Session Store).) on line #2 of user/login.rhtml:
+1: <h2>Log in</h2>
+2: <% form_for :user do |form| %>
+3: <fieldset>
+4:   <legend>Enter Your Details</legend>
+5: 
+
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/request_forgery_protection.rb:115:in `form_authenticity_token'
+    (eval):2:in `form_authenticity_token'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:454:in `token_tag'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:431:in `extra_tags_for_form'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:439:in `form_tag_html'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:41:in `form_tag'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_helper.rb:252:in `form_for'
+    app/views/user/login.rhtml:2:in `_run_erb_47app47views47user47login46rhtml'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `execute'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:35:in `render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:841:in `render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_with_a_layout'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1157:in `default_render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1163:in `perform_action'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_with_filters'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_with_rescue'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action_with_caching'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action_with_caching'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_with_filters'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process_with_session_management_support'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    :1:in `start'
+
+Rendering C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-09 07:12:38) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.06711 (14 reqs/sec) | Rendering: 0.06158 (91%) | DB: 0.01455 (21%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-09 07:12:39) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.10867 (9 reqs/sec) | Rendering: 0.10602 (97%) | DB: 0.00850 (7%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-09 07:12:39) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.05941 (16 reqs/sec) | Rendering: 0.05633 (94%) | DB: 0.00519 (8%) | 200 OK [http://localhost/site/help]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-09 07:12:40) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+
+
+ActionView::TemplateError (No :secret given to the #protect_from_forgery call.  Set that or use a session store capable of generating its own keys (Cookie Session Store).) on line #2 of user/register.html.erb:
+1: <h2>Register</h2>
+2: <% form_for :user do |form| %>
+3:   <fieldset>
+4:     <legend>Enter Your Details</legend>
+5: 
+
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/request_forgery_protection.rb:115:in `form_authenticity_token'
+    (eval):2:in `form_authenticity_token'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:454:in `token_tag'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:431:in `extra_tags_for_form'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:439:in `form_tag_html'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_tag_helper.rb:41:in `form_tag'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/helpers/form_helper.rb:252:in `form_for'
+    app/views/user/register.html.erb:2:in `_run_erb_47app47views47user47register46html46erb'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `execute'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:35:in `render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:841:in `render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_with_a_layout'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1157:in `default_render'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1163:in `perform_action'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_with_filters'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_with_benchmark'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_with_rescue'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action_with_caching'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action_with_caching'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_with_filters'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process_with_session_management_support'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:112:in `handle_dispatch'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/rails-2.1.0/lib/webrick_server.rb:78:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    :1:in `start'
+
+Rendering C:/Program Files/NetBeans 6.5.1/ruby2/jruby-1.1.4/lib/ruby/gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-09 07:13:02) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Completed in 0.39982 (2 reqs/sec) | Rendering: 0.39373 (98%) | DB: 0.02278 (5%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-09 07:13:05) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"login"}
+Rendering template within layouts/application
+Rendering user/login
+Completed in 0.08284 (12 reqs/sec) | Rendering: 0.07896 (95%) | DB: 0.00744 (8%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-09 07:15:35) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"login"}
+Rendering template within layouts/application
+Rendering user/login
+Completed in 0.08824 (11 reqs/sec) | Rendering: 0.08527 (96%) | DB: 0.01314 (14%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-09 07:17:16) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"login"}
+Rendering template within layouts/application
+Rendering user/login
+Completed in 0.06376 (15 reqs/sec) | Rendering: 0.06135 (96%) | DB: 0.00566 (8%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-09 07:17:53) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Completed in 0.11393 (8 reqs/sec) | Rendering: 0.11058 (97%) | DB: 0.01207 (10%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-09 07:18:06) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"login"}
+Rendering template within layouts/application
+Rendering user/login
+Completed in 0.07784 (12 reqs/sec) | Rendering: 0.07485 (96%) | DB: 0.00557 (7%) | 200 OK [http://localhost/user/login]
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000874)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.001267)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.002860)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.016822)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.002124)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.215576)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20090508232714)
+  [4;36;1mSQL (0.002242)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to AddUserTimestamps (20090508233247)
+  [4;35;1mSQL (0.001762)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateSessions (20090509004615)
+  [4;36;1mSQL (0.008468)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to AddAuthorizationToken (20090509112617)
+  [4;35;1mSQL (0.001814)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.164406)[0m   [0;1mALTER TABLE `users` ADD `authorization_token` varchar(255)[0m
+  [4;35;1mSQL (0.014742)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090509112617')[0m
+  [4;36;1mSQL (0.008085)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.002917)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.009058)[0m   [0;1mSHOW FIELDS FROM `sessions`[0m
+  [4;35;1mSQL (0.008734)[0m   [0mdescribe `sessions`[0m
+  [4;36;1mSQL (0.008461)[0m   [0;1mSHOW KEYS FROM `sessions`[0m
+  [4;35;1mSQL (0.009696)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.008992)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.007775)[0m   [0mSHOW KEYS FROM `users`[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.004000)[0m   [0;1mSHOW FIELDS FROM `sessions`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `sessions`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW KEYS FROM `sessions`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.166000)[0m   [0;1mDROP DATABASE IF EXISTS `rails_space_test`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mCREATE DATABASE `rails_space_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.077000)[0m   [0mCREATE TABLE `sessions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `session_id` varchar(255) DEFAULT '' NOT NULL, `data` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.185000)[0m   [0;1mCREATE INDEX `index_sessions_on_session_id` ON `sessions` (`session_id`)[0m
+  [4;35;1mSQL (0.156000)[0m   [0mCREATE INDEX `index_sessions_on_updated_at` ON `sessions` (`updated_at`)[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.060000)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `screen_name` varchar(255) DEFAULT NULL NULL, `email` varchar(255) DEFAULT NULL NULL, `password` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL, `authorization_token` varchar(255) DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.057000)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.136000)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (0.018000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090509112617')[0m
+  [4;36;1mSQL (0.025000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090508232714')[0m
+  [4;35;1mSQL (0.016000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.024000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090509004615')[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `sessions`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `sessions`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW KEYS FROM `sessions`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.162000)[0m   [0;1mDROP DATABASE IF EXISTS `rails_space_test`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mCREATE DATABASE `rails_space_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.062000)[0m   [0mCREATE TABLE `sessions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `session_id` varchar(255) DEFAULT '' NOT NULL, `data` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.157000)[0m   [0;1mCREATE INDEX `index_sessions_on_session_id` ON `sessions` (`session_id`)[0m
+  [4;35;1mSQL (0.182000)[0m   [0mCREATE INDEX `index_sessions_on_updated_at` ON `sessions` (`updated_at`)[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.082000)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `screen_name` varchar(255) DEFAULT NULL NULL, `email` varchar(255) DEFAULT NULL NULL, `password` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL, `authorization_token` varchar(255) DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.070000)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.141000)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (0.022000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090509112617')[0m
+  [4;36;1mSQL (0.024000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090508232714')[0m
+  [4;35;1mSQL (0.016000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.025000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090509004615')[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `sessions`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `sessions`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW KEYS FROM `sessions`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.074000)[0m   [0;1mDROP DATABASE IF EXISTS `rails_space_test`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mCREATE DATABASE `rails_space_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.068000)[0m   [0mCREATE TABLE `sessions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `session_id` varchar(255) DEFAULT '' NOT NULL, `data` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.148000)[0m   [0;1mCREATE INDEX `index_sessions_on_session_id` ON `sessions` (`session_id`)[0m
+  [4;35;1mSQL (0.149000)[0m   [0mCREATE INDEX `index_sessions_on_updated_at` ON `sessions` (`updated_at`)[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.064000)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `screen_name` varchar(255) DEFAULT NULL NULL, `email` varchar(255) DEFAULT NULL NULL, `password` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL, `authorization_token` varchar(255) DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.097000)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.148000)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (0.012000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090509112617')[0m
+  [4;36;1mSQL (0.025000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090508232714')[0m
+  [4;35;1mSQL (0.017000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.024000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090509004615')[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.004000)[0m   [0;1mSHOW FIELDS FROM `sessions`[0m
+  [4;35;1mSQL (0.004000)[0m   [0mdescribe `sessions`[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mSHOW KEYS FROM `sessions`[0m
+  [4;35;1mSQL (0.004000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.004000)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.105000)[0m   [0;1mDROP DATABASE IF EXISTS `rails_space_test`[0m
+  [4;35;1mSQL (0.021000)[0m   [0mCREATE DATABASE `rails_space_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.056000)[0m   [0mCREATE TABLE `sessions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `session_id` varchar(255) DEFAULT '' NOT NULL, `data` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.214000)[0m   [0;1mCREATE INDEX `index_sessions_on_session_id` ON `sessions` (`session_id`)[0m
+  [4;35;1mSQL (0.139000)[0m   [0mCREATE INDEX `index_sessions_on_updated_at` ON `sessions` (`updated_at`)[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.049000)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `screen_name` varchar(255) DEFAULT NULL NULL, `email` varchar(255) DEFAULT NULL NULL, `password` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL, `authorization_token` varchar(255) DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.065000)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.249000)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (0.020000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090509112617')[0m
+  [4;36;1mSQL (0.017000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090508232714')[0m
+  [4;35;1mSQL (0.024000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.017000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090509004615')[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.001000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.004000)[0m   [0;1mSHOW FIELDS FROM `sessions`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `sessions`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW KEYS FROM `sessions`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.077000)[0m   [0;1mDROP DATABASE IF EXISTS `rails_space_test`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mCREATE DATABASE `rails_space_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.069000)[0m   [0mCREATE TABLE `sessions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `session_id` varchar(255) DEFAULT '' NOT NULL, `data` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.214000)[0m   [0;1mCREATE INDEX `index_sessions_on_session_id` ON `sessions` (`session_id`)[0m
+  [4;35;1mSQL (0.164000)[0m   [0mCREATE INDEX `index_sessions_on_updated_at` ON `sessions` (`updated_at`)[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.091000)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `screen_name` varchar(255) DEFAULT NULL NULL, `email` varchar(255) DEFAULT NULL NULL, `password` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL, `authorization_token` varchar(255) DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.117000)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.179000)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (0.020000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090509112617')[0m
+  [4;36;1mSQL (0.017000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090508232714')[0m
+  [4;35;1mSQL (0.032000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.018000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090509004615')[0m

@@ -1,4 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/app/controllers/application.rb</file>
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/app/controllers/site_controller.rb</file>
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/app/controllers/user_controller.rb</file>
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/app/helpers/application_helper.rb</file>
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/app/helpers/site_helper.rb</file>
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/app/helpers/user_helper.rb</file>
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/app/models/user.rb</file>
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/app/views/layouts/application.rhtml</file>
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/app/views/site/about.html.erb</file>
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/app/views/site/help.html.erb</file>
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/app/views/site/index.html.erb</file>
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/app/views/user/index.html.erb</file>
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/app/views/user/login.rhtml</file>
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/app/views/user/register.html.erb</file>
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/config/database.yml</file>
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/config/environment.rb</file>
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/config/routes.rb</file>
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/db/migrate/20090508232714_create_users.rb</file>
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/db/migrate/20090508233247_add_user_timestamps.rb</file>
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/public/stylesheets/site.css</file>
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/test/fixtures/users.yml</file>
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/test/functional/site_controller_test.rb</file>
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/test/functional/user_controller_test.rb</file>
+        <file>file:/C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace/test/unit/user_test.rb</file>
+    </open-files>
 </project-private>

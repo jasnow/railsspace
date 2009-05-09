@@ -1,15 +1,16 @@
-# Filters added to this controller apply to all controllers in the application.
+# Filters added to this controller will be run for all controllers in the application.
 # Likewise, all the methods added will be available for all controllers.
-
 class ApplicationController < ActionController::Base
-  helper :all # include all helpers, all the time
+  include ApplicationHelper
 
-  # See ActionController::RequestForgeryProtection for details
-  # Uncomment the :secret if you're not using the cookie session store
-  protect_from_forgery # :secret => '8bac7d060da3dd2447a1db8c536cd43c'
-  
-  # See ActionController::Base for details 
-  # Uncomment this to filter the contents of submitted sensitive data parameters
-  # from your application log (in this case, all fields with names like "password"). 
-  # filter_parameter_logging :password
+  before_filter :check_authorization
+
+  # Log a user in by authorization cookie if necessary.
+  def check_authorization
+    authorization_token = cookies[:authorization_token]
+    if authorization_token and not logged_in?
+      user = User.find_by_authorization_token(authorization_token)
+      user.log_in!(session) if user
+    end
+  end
 end
