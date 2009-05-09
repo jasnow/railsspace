@@ -1,0 +1,16 @@
+C:/DeepDive/InstantRails-2.0-win/ruby/bin/ruby.exe -I"lib;test" "C:/cygdrive/c/deepdive/InstantRails-2.0-win/ruby/gems/rake-0.8.5/lib/rake/rake_test_loader.rb" "test/unit/user_test.rb" 
+(in C:/cygwin/home/jasnow/SPACE-RAILSSPACE/railsspace)
+Loaded suite C:/cygdrive/c/deepdive/InstantRails-2.0-win/ruby/gems/rake-0.8.5/lib/rake/rake_test_loader
+Started
+............
+Finished in 0.407 seconds.
+
+12 tests, 53 assertions, 0 failures, 0 errors
+C:/DeepDive/InstantRails-2.0-win/ruby/bin/ruby.exe -I"lib;test" "C:/cygdrive/c/deepdive/InstantRails-2.0-win/ruby/gems/rake-0.8.5/lib/rake/rake_test_loader.rb" "test/functional/site_controller_test.rb" "test/functional/user_controller_test.rb" 
+Loaded suite C:/cygdrive/c/deepdive/InstantRails-2.0-win/ruby/gems/rake-0.8.5/lib/rake/rake_test_loader
+Started
+......
+Finished in 0.443 seconds.
+
+6 tests, 30 assertions, 0 failures, 0 errors
+C:/DeepDive/InstantRails-2.0-win/ruby/bin/ruby.exe -I"lib;test" "C:/cygdrive/c/deepdive/InstantRails-2.0-win/ruby/gems/rake-0.8.5/lib/rake/rake_test_loader.rb"  
