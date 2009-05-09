@@ -3001,3 +3001,571 @@ WARNING: You're using the Ruby-based MySQL library that ships with Rails. This l
   [4;36;1mSQL (0.017000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090508232714')[0m
   [4;35;1mSQL (0.032000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090508233247')[0m
   [4;36;1mSQL (0.018000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090509004615')[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-09 08:41:10) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.04689 (21 reqs/sec) | Rendering: 0.04434 (94%) | DB: 0.00536 (11%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-09 08:41:13) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.05839 (17 reqs/sec) | Rendering: 0.05525 (94%) | DB: 0.00568 (9%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-09 08:41:14) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.06098 (16 reqs/sec) | Rendering: 0.05762 (94%) | DB: 0.00947 (15%) | 200 OK [http://localhost/site/help]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-09 08:41:16) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Completed in 0.08232 (12 reqs/sec) | Rendering: 0.07943 (96%) | DB: 0.00552 (6%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-09 08:41:17) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;36;1mUser Columns (0.007797)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Completed in 0.09649 (10 reqs/sec) | Rendering: 0.06198 (64%) | DB: 0.01369 (14%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-09 08:41:24) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Completed in 0.11733 (8 reqs/sec) | Rendering: 0.10710 (91%) | DB: 0.01393 (11%) | 200 OK [http://localhost/user/register]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-09 08:41:28) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.05707 (17 reqs/sec) | Rendering: 0.05461 (95%) | DB: 0.00821 (14%) | 200 OK [http://localhost/site/help]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-09 08:41:30) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.04152 (24 reqs/sec) | Rendering: 0.03881 (93%) | DB: 0.00530 (12%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-09 08:41:31) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.03353 (29 reqs/sec) | Rendering: 0.02807 (83%) | DB: 0.00546 (16%) | 200 OK [http://localhost/]
+
+
+Processing UserController#index (for 127.0.0.1 at 2009-05-09 08:42:27) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"index"}
+Redirected to http://localhost:3000/user/login
+Filter chain halted as [:protect] rendered_or_redirected.
+Completed in 0.00249 (401 reqs/sec) | DB: 0.01313 (527%) | 302 Found [http://localhost/user]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-09 08:42:27) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;35;1mUser Columns (0.006901)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Completed in 0.08262 (12 reqs/sec) | Rendering: 0.05137 (62%) | DB: 0.04373 (52%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#edit (for 127.0.0.1 at 2009-05-09 08:43:22) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"edit"}
+Rendering template within layouts/application
+Rendering user/edit
+Completed in 0.08974 (11 reqs/sec) | Rendering: 0.07809 (87%) | DB: 0.02871 (31%) | 200 OK [http://localhost/user/edit]
+
+
+Processing UserController#index (for 127.0.0.1 at 2009-05-09 08:43:49) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"index"}
+Redirected to http://localhost:3000/user/login
+Filter chain halted as [:protect] rendered_or_redirected.
+Completed in 0.00175 (570 reqs/sec) | DB: 0.05607 (3198%) | 302 Found [http://localhost/user]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-09 08:43:49) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;36;1mUser Columns (0.006328)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Completed in 0.06353 (15 reqs/sec) | Rendering: 0.03971 (62%) | DB: 0.05523 (86%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-09 08:50:47) [POST]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"user"=>{"screen_name"=>"", "password"=>"", "remember_me"=>"1"}, "commit"=>"Login!", "controller"=>"user", "action"=>"login"}
+  [4;35;1mUser Columns (0.008684)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.002974)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`screen_name` = '' AND `users`.`password` = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering user/login
+Completed in 0.10002 (9 reqs/sec) | Rendering: 0.04261 (42%) | DB: 0.08258 (82%) | 200 OK [http://localhost/user/login]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-09 08:51:05) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.04040 (24 reqs/sec) | Rendering: 0.03730 (92%) | DB: 0.03495 (86%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-09 08:51:05) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.03297 (30 reqs/sec) | Rendering: 0.03064 (92%) | DB: 0.03355 (101%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-09 08:51:06) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.04272 (23 reqs/sec) | Rendering: 0.04011 (93%) | DB: 0.03204 (75%) | 200 OK [http://localhost/site/help]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-09 08:51:07) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Completed in 0.04991 (20 reqs/sec) | Rendering: 0.04646 (93%) | DB: 0.00468 (9%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-09 08:51:08) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;35;1mUser Columns (0.005896)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Completed in 0.07349 (13 reqs/sec) | Rendering: 0.04689 (63%) | DB: 0.01124 (15%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-09 08:51:10) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Completed in 0.14896 (6 reqs/sec) | Rendering: 0.14623 (98%) | DB: 0.00506 (3%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#edit (for 127.0.0.1 at 2009-05-09 08:53:41) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"edit"}
+Redirected to http://localhost:3000/user/login
+Filter chain halted as [:protect] rendered_or_redirected.
+Completed in 0.00228 (438 reqs/sec) | DB: 0.00559 (244%) | 302 Found [http://localhost/user/edit]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-09 08:53:41) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;36;1mUser Columns (0.007957)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Completed in 0.11108 (9 reqs/sec) | Rendering: 0.06167 (55%) | DB: 0.05671 (51%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#edit (for 127.0.0.1 at 2009-05-09 08:55:53) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"edit"}
+Redirected to http://localhost:3000/user/login
+Filter chain halted as [:protect] rendered_or_redirected.
+Completed in 0.00133 (751 reqs/sec) | DB: 0.04064 (3055%) | 302 Found [http://localhost/user/edit]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-09 08:55:53) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;35;1mUser Columns (0.005931)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Completed in 0.12624 (7 reqs/sec) | Rendering: 0.08573 (67%) | DB: 0.03897 (30%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-09 08:56:00) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;36;1mUser Columns (0.008670)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Completed in 0.08356 (11 reqs/sec) | Rendering: 0.05101 (61%) | DB: 0.05988 (71%) | 200 OK [http://localhost/user/login]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-09 08:56:06) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.03909 (25 reqs/sec) | Rendering: 0.03154 (80%) | DB: 0.03127 (79%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-09 08:56:07) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.02700 (37 reqs/sec) | Rendering: 0.02482 (91%) | DB: 0.00452 (16%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-09 08:56:07) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.03976 (25 reqs/sec) | Rendering: 0.03725 (93%) | DB: 0.00534 (13%) | 200 OK [http://localhost/site/help]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-09 08:56:08) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Completed in 0.05226 (19 reqs/sec) | Rendering: 0.04926 (94%) | DB: 0.00550 (10%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-09 08:56:10) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;35;1mUser Columns (0.006278)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Completed in 0.05872 (17 reqs/sec) | Rendering: 0.03369 (57%) | DB: 0.01038 (17%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#edit (for 127.0.0.1 at 2009-05-09 08:58:43) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"edit"}
+Redirected to http://localhost:3000/user/login
+Filter chain halted as [:protect] rendered_or_redirected.
+Completed in 0.00556 (179 reqs/sec) | DB: 0.00521 (93%) | 302 Found [http://localhost/user/edit]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-09 08:58:44) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;36;1mUser Columns (0.005654)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Completed in 0.06411 (15 reqs/sec) | Rendering: 0.04094 (63%) | DB: 0.03709 (57%) | 200 OK [http://localhost/user/login]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-09 08:58:57) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.02878 (34 reqs/sec) | Rendering: 0.02710 (94%) | DB: 0.01866 (64%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-09 08:58:57) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.02722 (36 reqs/sec) | Rendering: 0.02550 (93%) | DB: 0.04277 (157%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-09 08:58:58) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.02883 (34 reqs/sec) | Rendering: 0.02674 (92%) | DB: 0.00418 (14%) | 200 OK [http://localhost/site/help]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-09 08:58:59) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Completed in 0.07528 (13 reqs/sec) | Rendering: 0.07286 (96%) | DB: 0.00462 (6%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-09 08:59:00) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;35;1mUser Columns (0.008148)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Completed in 0.07903 (12 reqs/sec) | Rendering: 0.04787 (60%) | DB: 0.01365 (17%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-09 08:59:02) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Completed in 0.10017 (9 reqs/sec) | Rendering: 0.09764 (97%) | DB: 0.00486 (4%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-09 08:59:04) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;36;1mUser Columns (0.008521)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Completed in 0.08322 (12 reqs/sec) | Rendering: 0.04517 (54%) | DB: 0.01387 (16%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-09 08:59:12) [POST]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"user"=>{"screen_name"=>"alsnow", "password"=>"alsnow", "remember_me"=>"1"}, "commit"=>"Login!", "controller"=>"user", "action"=>"login"}
+  [4;35;1mUser Columns (0.005934)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.002978)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`screen_name` = 'alsnow' AND `users`.`password` = 'alsnow') LIMIT 1[0m
+Cookie set: remember_me=1; path=/; expires=Thu, 09 May 2019 12:59:12 GMT
+  [4;35;1mSQL (0.000784)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.001552)[0m   [0;1mSELECT `screen_name` FROM `users` WHERE (`users`.screen_name = 'alsnow' AND `users`.id <> 1) [0m
+  [4;35;1mSQL (0.001418)[0m   [0mSELECT `email` FROM `users` WHERE (`users`.email = 'a@a.com' AND `users`.id <> 1) [0m
+  [4;36;1mUser Update (0.001358)[0m   [0;1mUPDATE `users` SET `authorization_token` = 'a3e0d8444fcc27e1971edd82def5f5b3016e3c72', `updated_at` = '2009-05-09 12:59:12' WHERE `id` = 1[0m
+  [4;35;1mSQL (0.031540)[0m   [0mCOMMIT[0m
+Cookie set: authorization_token=a3e0d8444fcc27e1971edd82def5f5b3016e3c72; path=/; expires=Thu, 09 May 2019 12:59:12 GMT
+Redirected to http://localhost:3000/user/edit
+Completed in 0.14445 (6 reqs/sec) | DB: 0.05055 (34%) | 302 Found [http://localhost/user/login]
+
+
+Processing UserController#edit (for 127.0.0.1 at 2009-05-09 08:59:12) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"edit"}
+  [4;36;1mUser Columns (0.005912)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.002578)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering user/edit
+Completed in 0.07866 (12 reqs/sec) | Rendering: 0.04344 (55%) | DB: 0.03717 (47%) | 200 OK [http://localhost/user/edit]
+
+
+Processing UserController#edit (for 127.0.0.1 at 2009-05-09 08:59:24) [POST]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"attribute"=>"password", "user"=>{"current_password"=>"alsnow", "password"=>"alsnow1", "password_confirmation"=>"alsnow1"}, "commit"=>"Update", "controller"=>"user", "action"=>"edit"}
+  [4;36;1mUser Columns (0.005524)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.002552)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mSQL (0.001047)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.001524)[0m   [0mSELECT `screen_name` FROM `users` WHERE (`users`.screen_name = 'alsnow' AND `users`.id <> 1) [0m
+  [4;36;1mSQL (0.001009)[0m   [0;1mSELECT `email` FROM `users` WHERE (`users`.email = 'a@a.com' AND `users`.id <> 1) [0m
+  [4;35;1mUser Update (0.001199)[0m   [0mUPDATE `users` SET `password` = 'alsnow1', `updated_at` = '2009-05-09 12:59:24' WHERE `id` = 1[0m
+  [4;36;1mSQL (0.022755)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/user
+Completed in 0.11856 (8 reqs/sec) | DB: 0.06528 (55%) | 302 Found [http://localhost/user/edit]
+
+
+Processing UserController#index (for 127.0.0.1 at 2009-05-09 08:59:24) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"index"}
+  [4;35;1mUser Columns (0.006179)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.002522)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering user/index
+Completed in 0.06336 (15 reqs/sec) | Rendering: 0.03344 (52%) | DB: 0.06061 (95%) | 200 OK [http://localhost/user]
+
+
+Processing UserController#edit (for 127.0.0.1 at 2009-05-09 08:59:35) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"edit"}
+  [4;35;1mUser Columns (0.007837)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.002680)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering user/edit
+Completed in 0.09290 (10 reqs/sec) | Rendering: 0.05045 (54%) | DB: 0.04328 (46%) | 200 OK [http://localhost/user/edit]
+
+
+Processing UserController#edit (for 127.0.0.1 at 2009-05-09 08:59:40) [POST]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"attribute"=>"email", "user"=>{"email"=>"a@b.com"}, "commit"=>"Update", "controller"=>"user", "action"=>"edit"}
+  [4;35;1mUser Columns (0.008384)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.003666)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mSQL (0.000952)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.001361)[0m   [0;1mSELECT `screen_name` FROM `users` WHERE (`users`.screen_name = 'alsnow' AND `users`.id <> 1) [0m
+  [4;35;1mSQL (0.001277)[0m   [0mSELECT `email` FROM `users` WHERE (`users`.email = 'a@b.com' AND `users`.id <> 1) [0m
+  [4;36;1mUser Update (0.000753)[0m   [0;1mUPDATE `users` SET `email` = 'a@b.com', `updated_at` = '2009-05-09 12:59:40' WHERE `id` = 1[0m
+  [4;35;1mSQL (0.026484)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/user
+Completed in 0.08425 (11 reqs/sec) | DB: 0.09096 (107%) | 302 Found [http://localhost/user/edit]
+
+
+Processing UserController#index (for 127.0.0.1 at 2009-05-09 08:59:40) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"index"}
+  [4;36;1mUser Columns (0.005417)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.002541)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering user/index
+Completed in 0.05509 (18 reqs/sec) | Rendering: 0.03027 (54%) | DB: 0.03551 (64%) | 200 OK [http://localhost/user]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-09 09:49:03) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.03360 (29 reqs/sec) | Rendering: 0.03192 (95%) | DB: 0.02924 (87%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-09 09:49:04) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.05589 (17 reqs/sec) | Rendering: 0.03439 (61%) | DB: 0.02743 (49%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-09 09:49:05) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.03856 (25 reqs/sec) | Rendering: 0.03627 (94%) | DB: 0.00435 (11%) | 200 OK [http://localhost/site/help]
+
+
+Processing UserController#index (for 127.0.0.1 at 2009-05-09 09:49:06) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"index"}
+  [4;36;1mUser Columns (0.008386)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.003321)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering user/index
+Completed in 0.07709 (12 reqs/sec) | Rendering: 0.04167 (54%) | DB: 0.01693 (21%) | 200 OK [http://localhost/user]
+
+
+Processing UserController#logout (for 127.0.0.1 at 2009-05-09 09:49:09) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"logout"}
+Cookie set: authorization_token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT
+Redirected to http://localhost:3000/
+Completed in 0.02119 (47 reqs/sec) | DB: 0.00452 (21%) | 302 Found [http://localhost/user/logout]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-09 09:49:09) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.10959 (9 reqs/sec) | Rendering: 0.10297 (93%) | DB: 0.02889 (26%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-09 09:49:11) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.03629 (27 reqs/sec) | Rendering: 0.03365 (92%) | DB: 0.08417 (231%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-09 09:49:12) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.03528 (28 reqs/sec) | Rendering: 0.03294 (93%) | DB: 0.04118 (116%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-09 09:49:13) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.02574 (38 reqs/sec) | Rendering: 0.02412 (93%) | DB: 0.00402 (15%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-09 09:49:13) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.03778 (26 reqs/sec) | Rendering: 0.03555 (94%) | DB: 0.00475 (12%) | 200 OK [http://localhost/site/help]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-09 09:49:14) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Rendered user/_screen_name_field_row (0.00010)
+Rendered user/_email_field_row (0.02134)
+Rendered user/_password_field_row (0.00096)
+Rendered user/_password_field_row (0.00067)
+Completed in 0.08497 (11 reqs/sec) | Rendering: 0.08268 (97%) | DB: 0.00531 (6%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-09 09:49:15) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;36;1mUser Columns (0.006660)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Rendered user/_screen_name_field_row (0.00005)
+Rendered user/_password_field_row (0.00578)
+Completed in 0.07553 (13 reqs/sec) | Rendering: 0.04627 (61%) | DB: 0.01151 (15%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-09 09:49:16) [GET]
+  Session ID: 25b2aaf8e2f272409fdf4cb57fb1a088
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Rendered user/_screen_name_field_row (0.00007)
+Rendered user/_email_field_row (0.02114)
+Rendered user/_password_field_row (0.00078)
+Rendered user/_password_field_row (0.00054)
+Completed in 0.06631 (15 reqs/sec) | Rendering: 0.06406 (96%) | DB: 0.00471 (7%) | 200 OK [http://localhost/user/register]
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.001000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `sessions`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `sessions`[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mSHOW KEYS FROM `sessions`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.120000)[0m   [0;1mDROP DATABASE IF EXISTS `rails_space_test`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mCREATE DATABASE `rails_space_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.072000)[0m   [0mCREATE TABLE `sessions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `session_id` varchar(255) DEFAULT '' NOT NULL, `data` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.138000)[0m   [0;1mCREATE INDEX `index_sessions_on_session_id` ON `sessions` (`session_id`)[0m
+  [4;35;1mSQL (0.124000)[0m   [0mCREATE INDEX `index_sessions_on_updated_at` ON `sessions` (`updated_at`)[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.084000)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `screen_name` varchar(255) DEFAULT NULL NULL, `email` varchar(255) DEFAULT NULL NULL, `password` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL, `authorization_token` varchar(255) DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.070000)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.147000)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (0.023000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090509112617')[0m
+  [4;36;1mSQL (0.023000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090508232714')[0m
+  [4;35;1mSQL (0.019000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.022000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090509004615')[0m

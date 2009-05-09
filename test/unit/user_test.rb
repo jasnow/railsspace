@@ -33,73 +33,14 @@ class UserTest < Test::Unit::TestCase
     assert_equal @error_messages[:taken], user_repeat.errors.on(:email)
   end
 
-  # Make sure the screen name can't be too short.
-  def test_screen_name_minimum_length
-    user = @valid_user
-    min_length = User::SCREEN_NAME_MIN_LENGTH
-
-    # Screen name is too short.
-    user.screen_name = "a" * (min_length - 1)
-    assert !user.valid?, "#{user.screen_name} should raise a minimum length error"
-    # Format the error message based on minimum length.
-    correct_error_message = sprintf(@error_messages[:too_short], min_length)
-    assert_equal correct_error_message, user.errors.on(:screen_name)
-
-    # Screen name is minimum length.
-    user.screen_name = "a" * min_length
-    assert user.valid?, "#{user.screen_name} should be just long enough to pass"
+  def test_screen_name_length_boundaries
+    assert_length :min, @valid_user, :screen_name, User::SCREEN_NAME_MIN_LENGTH
+    assert_length :max, @valid_user, :screen_name, User::SCREEN_NAME_MAX_LENGTH
   end
 
-  # Make sure the screen name can't be too long.
-  def test_screen_name_maximum_length
-    user = @valid_user
-    max_length = User::SCREEN_NAME_MAX_LENGTH
-
-    # Screen name is too long.
-    user.screen_name = "a" * (max_length + 1)
-    assert !user.valid?, "#{user.screen_name} should raise a maximum length error"
-
-    # Format the error message based on maximum length
-    correct_error_message = sprintf(@error_messages[:too_long], max_length)
-    assert_equal correct_error_message, user.errors.on(:screen_name)
-
-    # Screen name is maximum length.
-    user.screen_name = "a" * max_length
-    assert user.valid?, "#{user.screen_name} should be just short enough to pass"
-  end
-
-  # Make sure the password can't be too short.
-  def test_password_minimum_length
-    user = @valid_user
-    min_length = User::PASSWORD_MIN_LENGTH
-
-    # Password is too short.
-    user.password = "a" * (min_length - 1)
-    assert !user.valid?, "#{user.password} should raise a minimum length error"
-    # Format the error message based on minimum length.
-    correct_error_message = sprintf(@error_messages[:too_short], min_length)
-    assert_equal correct_error_message, user.errors.on(:password)
-
-    # Password is just long enough.
-    user.password = "a" * min_length
-    assert user.valid?, "#{user.password} should be just long enough to pass"
-  end
-
-  # Make sure the password can't be too long.
-  def test_password_maximum_length
-    user = @valid_user
-    max_length = User::PASSWORD_MAX_LENGTH
-
-    # Password is too long.
-    user.password = "a" * (max_length + 1)
-    assert !user.valid?, "#{user.password} should raise a maximum length error"
-    # Format the error message based on maximum length.
-    correct_error_message = sprintf(@error_messages[:too_long], max_length)
-    assert_equal correct_error_message, user.errors.on(:password)
-
-    # Password is maximum length.
-    user.password = "a" * max_length
-    assert user.valid?, "#{user.password} should be just short enough to pass"
+  def test_password_length_boundaries
+    assert_length :min, @valid_user, :password, User::PASSWORD_MIN_LENGTH
+    assert_length :max, @valid_user, :password, User::PASSWORD_MAX_LENGTH
   end
 
   # Make sure email can't be too long.

@@ -1,2 +1,9 @@
-<h1>Welcome!</h1>
-<p>This page will serve as the hub for users of RailsSpace.</p>
+<h2>Your basic information</h2>
+<ul>
+  <li>Screen name: <%= @user.screen_name %></li>
+  <li>Email: <%= @user.email %></li>
+  <li>Password: *******</li>
+</ul>
+<ul>
+  <li><%= link_to "Edit my info", :action => "edit" %></li>
+</ul>

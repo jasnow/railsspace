@@ -23,27 +23,13 @@ class UserControllerTest < Test::Unit::TestCase
     assert_equal "Register", title
     assert_response :success
     assert_template "register"
-
     # Test the form and all its tags.
-    assert_tag "form", :attributes => { :action => "/user/register",
-                                        :method => "post" }
-    assert_tag   "input",
-                :attributes => { :name => "user[screen_name]",
-                                 :type => "text",
-                                 :size => User::SCREEN_NAME_SIZE,
-                                 :maxlength => User::SCREEN_NAME_MAX_LENGTH }
-    assert_tag   "input",
-                :attributes => { :name => "user[email]",
-                                 :type => "text",
-                                 :size => User::EMAIL_SIZE,
-                                 :maxlength => User::EMAIL_MAX_LENGTH }
-    assert_tag   "input",
-                :attributes => { :name => "user[password]",
-                                 :type => "password",
-                                 :size => User::PASSWORD_SIZE,
-                                 :maxlength => User::PASSWORD_MAX_LENGTH }
-    assert_tag   "input", :attributes => { :type => "submit",
-                                          :value => "Register!" }
+    assert_form_tag "/user/register"
+    assert_screen_name_field
+    assert_email_field
+		assert_password_field
+    assert_password_field "password_confirmation"
+    assert_submit_button "Register!"
   end
 
   # Test a valid registration.
@@ -136,33 +122,6 @@ class UserControllerTest < Test::Unit::TestCase
     assert_nil cookie_value(:authorization_token)
   end
 
-  # Test a valid login with the remember box checked.
-  def test_login_success_with_remember_me
-    try_to_login @valid_user, :remember_me => "1"
-    test_time = Time.now
-    assert logged_in?
-    assert_equal @valid_user.id, session[:user_id]
-    assert_equal "User #{@valid_user.screen_name} logged in!", flash[:notice]
-    assert_response :redirect
-    assert_redirected_to :action => "index"
-
-    # Check cookies and expiration dates.
-    user = User.find(@valid_user.id)
-    time_range = 100 # microseconds range for time agreement
-
-    # Remember me cookie
-    assert_equal "1", cookie_value(:remember_me)
-    assert_in_delta 10.years.from_now(test_time),
-                    cookie_expires(:remember_me),
-                    time_range
-
-    # Authorization cookie
-    assert_equal user.authorization_token, cookie_value(:authorization_token)
-    assert_in_delta 10.years.from_now(test_time),
-                    cookie_expires(:authorization_token),
-                    time_range
-  end
-
   # Test a login with invalid screen name.
   def test_login_failure_with_nonexistent_screen_name
     invalid_user = @valid_user
@@ -192,15 +151,13 @@ class UserControllerTest < Test::Unit::TestCase
 
   # Test the logout function.
   def test_logout
-    try_to_login @valid_user, :remember_me => "1"
+    try_to_login @valid_user
     assert logged_in?
-    assert_not_nil cookie_value(:authorization_token)
     get :logout
     assert_response :redirect
     assert_redirected_to :action => "index", :controller => "site"
     assert_equal "Logged out", flash[:notice]
     assert !logged_in?
-    assert_nil cookie_value(:authorization_token)
   end
 
   # Test the navigation menu after login.
@@ -245,6 +202,23 @@ class UserControllerTest < Test::Unit::TestCase
     friendly_url_forwarding_aux(:register, :index, user)
   end
 
+  # Test the edit page.
+  def test_edit_page
+    authorize @valid_user
+    get :edit
+    title = assigns(:title)
+    assert_equal "Edit basic info", title
+    assert_response :success
+    assert_template "edit"
+    # Test the form and all its tags.
+    assert_form_tag "/user/edit"
+    assert_email_field @valid_user.email
+    assert_password_field "current_password"
+    assert_password_field
+    assert_password_field "password_confirmation"
+    assert_submit_button "Update"
+  end
+
   private
 
   # Try to log a user in using the login action.
@@ -273,6 +247,31 @@ class UserControllerTest < Test::Unit::TestCase
     assert_redirected_to :action => protected_page
     # Make sure the forwarding url has been cleared.
     assert_nil session[:protected_page]
+  end
+
+  # Some utility assertions for testing HTML.
+
+  # Assert that the email field has the correct HTML.
+  def assert_email_field(email = nil, options = {})
+    assert_input_field("user[email]", email, "text",
+                       User::EMAIL_SIZE, User::EMAIL_MAX_LENGTH,
+                       options)
+  end
+
+  # Assert that the password field has the correct HTML.
+  def assert_password_field(password_field_name = "password", options = {})
+    # We never want a password to appear pre-filled into a form.
+    blank = nil
+    assert_input_field("user[#{password_field_name}]", blank, "password",
+                       User::PASSWORD_SIZE, User::PASSWORD_MAX_LENGTH,
+                       options)
+  end
+
+  # Assert that the screen name field has the correct HTML.
+  def assert_screen_name_field(screen_name = nil, options = {})
+    assert_input_field("user[screen_name]", screen_name, "text",
+                       User::SCREEN_NAME_SIZE, User::SCREEN_NAME_MAX_LENGTH,
+                       options)
   end
 
   # Return the cookie value given a symbol.
