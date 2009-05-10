@@ -1,10 +1,13 @@
 class UserController < ApplicationController
   include ApplicationHelper
+  helper :profile
   before_filter :protect, :only => [:index, :edit]
 
   def index
     @title = "RailsSpace User Hub"
     @user = User.find(session[:user_id])
+    @spec = @user.spec ||= Spec.new
+    @faq = @user.faq ||= Faq.new
   end
 
   def register
@@ -69,21 +72,6 @@ class UserController < ApplicationController
   end
 
   private
-
-  # Protect a page from unauthorized access.
-  def protect
-    unless logged_in?
-      session[:protected_page] = request.request_uri
-      flash[:notice] = "Please log in first"
-      redirect_to :action => "login"
-      return false
-    end
-  end
-
-  # Return true if a parameter corresponding to the given symbol was posted.
-  def param_posted?(symbol)
-    request.post? and params[symbol]
-  end
 
   # Redirect to the previously requested URL (if present).
   def redirect_to_forwarding_url

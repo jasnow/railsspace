@@ -30,12 +30,24 @@ ActionController::Routing::Routes.draw do |map|
   #     admin.resources :products
   #   end
 
-  # You can have the root of your site routed with map.root -- just remember to delete public/index.html.
-  map.root :controller => "site"
+  # You can have the root of your site routed with map.root
+  # -- just remember to delete public/index.html.
+
+## 5/9/2009: REMOVED: CH1to8:   map.root :controller => "site"
+
+  map.connect '', :controller => "site"
+  
+## 5/9/2009/pg283: REMOVED: map.connect 'profile/:screen_name', :controller => 'profile', :action => 'show'
+  map.profile 'profile/:screen_name', :controller => 'profile', :action => 'show'
+
+  # Allow downloading Web Service WSDL as a file with an extension
+  # instead of a file named 'wsdl'
+  map.connect ':controller/service.wsdl', :action => 'wsdl'
 
   # See how all your routes lay out with "rake routes"
 
   # Install the default routes as the lowest priority.
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
+  map.hub 'user', :controller => 'user', :action => 'index'
 end

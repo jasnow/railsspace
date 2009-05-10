@@ -65,3 +65,8 @@ Rails::Initializer.run do |config|
   # Activate observers that should always be running
   # config.active_record.observers = :cacher, :garbage_collector
 end
+
+# ADDED 5/9/2009:
+DB_STRING_MAX_LENGTH = 255
+DB_TEXT_MAX_LENGTH = 40000
+HTML_TEXT_FIELD_SIZE = 15

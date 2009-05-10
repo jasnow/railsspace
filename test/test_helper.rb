@@ -101,4 +101,9 @@ class Test::Unit::TestCase
       raise ArgumentError, "boundary must be :max or :min"
     end
   end
+  
+  # Authorize a user.
+  def authorize(user)
+    @request.session[:user_id] = user.id
+  end
 end

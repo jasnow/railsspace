@@ -10,7 +10,22 @@ class ApplicationController < ActionController::Base
     authorization_token = cookies[:authorization_token]
     if authorization_token and not logged_in?
       user = User.find_by_authorization_token(authorization_token)
-      user.log_in!(session) if user
+      user.login!(session) if user
+    end
+  end
+
+  # Return true if a parameter corresponding to the given symbol was posted.
+  def param_posted?(sym)
+    request.post? and params[sym]
+  end
+
+  # Protect a page from unauthorized access.
+  def protect
+    unless logged_in?
+      session[:protected_page] = request.request_uri
+      flash[:notice] = "Please log in first"
+      redirect_to :controller => "user", :action => "login"
+      return false
     end
   end
 end
