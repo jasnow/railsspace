@@ -112,7 +112,6 @@ fieldset.debug_info {
   background: #eee;
 }
 
-
 /* Error Reporting Styles */
 .fieldWithErrors {
   margin: 2px;
@@ -156,6 +155,63 @@ fieldset.debug_info {
   padding: 1em;
   margin: 1em;
   margin-bottom: 2em;
-  background-color: gray;
+  background-color: lightgray;
   font: bold smaller sans-serif;
+}
+
+
+/* Community Styles */
+
+a, a#visited {
+  color: maroon;
+  text-decoration: none;
+}
+
+.letter, .letter_current {
+  width: 1em;
+  text-align: center;
+  border: 1px solid gray;
+  background: #fff;
+  padding: 5px 2px 1px 2px;
+  float: left;
+  margin: 2px
+}
+
+.letter:hover {
+  background: #fe4;
+}
+
+.letter_current {
+  background: #fe4;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+table.users {
+  background: #fff;
+  margin-left: 2em;
+}
+
+table.users td.bottom {
+  border-top: 1px solid #999;
+  padding-top: 10px;
+}
+
+table.users th {
+  color: white;
+  background: maroon;
+  font-weight: normal;
+}
+
+table.users th a {
+  color: white;
+  text-decoration: underline;
+}
+
+table.users tr.even {
+  background: #ddd;
+}
+
+table.users tr.odd {
+  background: #eee;
 }

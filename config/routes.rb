@@ -35,7 +35,7 @@ ActionController::Routing::Routes.draw do |map|
 
 ## 5/9/2009: REMOVED: CH1to8:   map.root :controller => "site"
 
-  map.connect '', :controller => "site"
+  map.connect '', :controller => 'site', :action => 'index', :id => nil
   
 ## 5/9/2009/pg283: REMOVED: map.connect 'profile/:screen_name', :controller => 'profile', :action => 'show'
   map.profile 'profile/:screen_name', :controller => 'profile', :action => 'show'

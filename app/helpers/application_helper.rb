@@ -1,10 +1,11 @@
 module ApplicationHelper
   require 'string'
 
-  # Return a link for use in layout navigation.
+  # Return a link for use in site navigation.
   def nav_link(text, controller, action="index")
-    link_to_unless_current text, :controller => controller,
-                                        :action => action
+    link_to_unless_current text, :id => nil,
+                                 :action => action,
+                                 :controller => controller
   end
 
   # Return true if some user is logged in, false otherwise.
@@ -20,4 +21,3 @@ module ApplicationHelper
     content_tag("div", "#{label} #{form_field}", :class => "form_row")
   end
 end
-

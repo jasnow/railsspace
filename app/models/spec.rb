@@ -34,4 +34,16 @@ class Spec < ActiveRecord::Base
   def location
     [city, state, zip_code].join(" ")
   end
+
+  # Return the age using the birthdate.
+  def age
+    return if birthdate.nil?
+    today = Date.today
+    if today.month >= birthdate.month and today.day >= birthdate.day
+      # Birthday has happened already this year.
+      today.year - birthdate.year
+    else
+      today.year - birthdate.year - 1
+    end
+  end
 end

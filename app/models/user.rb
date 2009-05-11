@@ -90,6 +90,11 @@ class User < ActiveRecord::Base
     errors.add(:current_password, "is incorrect")
   end
 
+  # Return a sensible name for the user.
+  def name
+    spec.full_name.or_else(screen_name)
+  end
+
   private
 
   # Generate a unique identifier for a user.

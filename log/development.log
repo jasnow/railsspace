@@ -8125,3 +8125,1943 @@ Rendering user/login
 Rendered user/_screen_name_field_row (0.00693)
 Rendered user/_password_field_row (0.00062)
 Completed in 0.06666 (15 reqs/sec) | Rendering: 0.03571 (53%) | DB: 0.01101 (16%) | 200 OK [http://localhost/user/login]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-10 19:14:38) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.13887 (7 reqs/sec) | Rendering: 0.13315 (95%) | DB: 0.03581 (25%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-10 19:14:42) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.06371 (15 reqs/sec) | Rendering: 0.05926 (93%) | DB: 0.04290 (67%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-10 19:14:43) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.08716 (11 reqs/sec) | Rendering: 0.08297 (95%) | DB: 0.01409 (16%) | 200 OK [http://localhost/site/help]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-10 19:14:44) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Rendered user/_screen_name_field_row (0.03634)
+Rendered user/_email_field_row (0.00084)
+Rendered user/_password_field_row (0.00120)
+Rendered user/_password_field_row (0.00094)
+Completed in 0.12874 (7 reqs/sec) | Rendering: 0.12494 (97%) | DB: 0.00613 (4%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-10 19:14:45) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;36;1mUser Columns (0.007968)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Rendered user/_screen_name_field_row (0.00921)
+Rendered user/_password_field_row (0.00078)
+Completed in 0.09414 (10 reqs/sec) | Rendering: 0.06392 (67%) | DB: 0.01897 (20%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-10 19:14:46) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Rendered user/_screen_name_field_row (0.02673)
+Rendered user/_email_field_row (0.00057)
+Rendered user/_password_field_row (0.00064)
+Rendered user/_password_field_row (0.00050)
+Completed in 0.13005 (7 reqs/sec) | Rendering: 0.12748 (98%) | DB: 0.00457 (3%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-10 19:14:48) [POST]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"user"=>{"screen_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register!", "controller"=>"user", "action"=>"register"}
+  [4;35;1mUser Columns (0.011067)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.000886)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.001903)[0m   [0mSELECT `screen_name` FROM `users` WHERE (`users`.screen_name = '') [0m
+  [4;36;1mSQL (0.001584)[0m   [0;1mSELECT `email` FROM `users` WHERE (`users`.email = '') [0m
+  [4;35;1mSQL (0.000788)[0m   [0mCOMMIT[0m
+Rendering template within layouts/application
+Rendering user/register
+Rendered user/_screen_name_field_row (0.00123)
+Rendered user/_email_field_row (0.00100)
+Rendered user/_password_field_row (0.00227)
+Rendered user/_password_field_row (0.00107)
+Completed in 0.16051 (6 reqs/sec) | Rendering: 0.07850 (48%) | DB: 0.02215 (13%) | 200 OK [http://localhost/user/register]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-10 19:14:50) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.06927 (14 reqs/sec) | Rendering: 0.06701 (96%) | DB: 0.00532 (7%) | 200 OK [http://localhost/site/about]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-10 19:14:52) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Rendered user/_screen_name_field_row (0.02395)
+Rendered user/_email_field_row (0.00402)
+Rendered user/_password_field_row (0.00082)
+Rendered user/_password_field_row (0.00067)
+Completed in 0.09943 (10 reqs/sec) | Rendering: 0.09567 (96%) | DB: 0.00573 (5%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-10 19:14:53) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;36;1mUser Columns (0.006167)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Rendered user/_screen_name_field_row (0.00958)
+Rendered user/_password_field_row (0.00066)
+Completed in 0.09786 (10 reqs/sec) | Rendering: 0.06867 (70%) | DB: 0.01083 (11%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-10 19:14:55) [POST]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"user"=>{"screen_name"=>"", "password"=>"", "remember_me"=>"1"}, "commit"=>"Login!", "controller"=>"user", "action"=>"login"}
+  [4;35;1mUser Columns (0.006567)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.003542)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`screen_name` = '' AND `users`.`password` = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering user/login
+Rendered user/_screen_name_field_row (0.00077)
+Rendered user/_password_field_row (0.00062)
+Completed in 0.10507 (9 reqs/sec) | Rendering: 0.04673 (44%) | DB: 0.02404 (22%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-10 19:15:16) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Rendered user/_screen_name_field_row (0.02380)
+Rendered user/_email_field_row (0.00053)
+Rendered user/_password_field_row (0.00045)
+Rendered user/_password_field_row (0.00048)
+Completed in 0.10713 (9 reqs/sec) | Rendering: 0.10443 (97%) | DB: 0.05209 (48%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-10 19:15:21) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;35;1mUser Columns (0.008414)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Rendered user/_screen_name_field_row (0.00841)
+Rendered user/_password_field_row (0.00091)
+Completed in 0.11687 (8 reqs/sec) | Rendering: 0.07233 (61%) | DB: 0.05066 (43%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-10 19:15:27) [POST]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"user"=>{"screen_name"=>"", "password"=>"", "remember_me"=>"1"}, "commit"=>"Login!", "controller"=>"user", "action"=>"login"}
+  [4;36;1mUser Columns (0.008573)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.004235)[0m   [0mSELECT * FROM `users` WHERE (`users`.`screen_name` = '' AND `users`.`password` = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering user/login
+Rendered user/_screen_name_field_row (0.00083)
+Rendered user/_password_field_row (0.00070)
+Completed in 0.08457 (11 reqs/sec) | Rendering: 0.03594 (42%) | DB: 0.03880 (45%) | 200 OK [http://localhost/user/login]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-10 21:53:17) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.14942 (6 reqs/sec) | Rendering: 0.14247 (95%) | DB: 0.02213 (14%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-10 21:53:21) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.06871 (14 reqs/sec) | Rendering: 0.06352 (92%) | DB: 0.00653 (9%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-10 21:53:22) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.08533 (11 reqs/sec) | Rendering: 0.08090 (94%) | DB: 0.01687 (19%) | 200 OK [http://localhost/site/help]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-10 21:53:23) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Rendered user/_screen_name_field_row (0.02877)
+Rendered user/_email_field_row (0.00066)
+Rendered user/_password_field_row (0.00089)
+Rendered user/_password_field_row (0.00072)
+Completed in 0.12015 (8 reqs/sec) | Rendering: 0.11752 (97%) | DB: 0.00531 (4%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-10 21:53:23) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;36;1mUser Columns (0.007076)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Rendered user/_screen_name_field_row (0.01014)
+Rendered user/_password_field_row (0.00075)
+Completed in 0.09204 (10 reqs/sec) | Rendering: 0.06002 (65%) | DB: 0.02355 (25%) | 200 OK [http://localhost/user/login]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-10 22:06:34) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.14120 (7 reqs/sec) | Rendering: 0.13602 (96%) | DB: 0.02169 (15%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-10 22:06:38) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.06111 (16 reqs/sec) | Rendering: 0.05613 (91%) | DB: 0.00560 (9%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-10 22:06:40) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.09206 (10 reqs/sec) | Rendering: 0.08731 (94%) | DB: 0.01585 (17%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-10 22:06:41) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.06300 (15 reqs/sec) | Rendering: 0.05847 (92%) | DB: 0.00605 (9%) | 200 OK [http://localhost/site/help]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-10 22:06:42) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Rendered user/_screen_name_field_row (0.03273)
+Rendered user/_email_field_row (0.00064)
+Rendered user/_password_field_row (0.00086)
+Rendered user/_password_field_row (0.00069)
+Completed in 0.11107 (9 reqs/sec) | Rendering: 0.10675 (96%) | DB: 0.01201 (10%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-10 22:06:43) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;36;1mUser Columns (0.006595)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Rendered user/_screen_name_field_row (0.01047)
+Rendered user/_password_field_row (0.00737)
+Completed in 0.14457 (6 reqs/sec) | Rendering: 0.11699 (80%) | DB: 0.01205 (8%) | 200 OK [http://localhost/user/login]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-10 22:07:47) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.06915 (14 reqs/sec) | Rendering: 0.06603 (95%) | DB: 0.00584 (8%) | 200 OK [http://localhost/site/help]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-10 22:07:48) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Rendered user/_screen_name_field_row (0.02316)
+Rendered user/_email_field_row (0.00050)
+Rendered user/_password_field_row (0.00055)
+Rendered user/_password_field_row (0.00053)
+Completed in 0.07445 (13 reqs/sec) | Rendering: 0.07218 (96%) | DB: 0.00758 (10%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-10 22:07:50) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;35;1mUser Columns (0.008698)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Rendered user/_screen_name_field_row (0.01477)
+Rendered user/_password_field_row (0.00068)
+Completed in 0.09914 (10 reqs/sec) | Rendering: 0.05866 (59%) | DB: 0.01414 (14%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-10 22:07:51) [GET]
+  Session ID: 614df2e1480ef9a01a65fc4e0293e7e1
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Rendered user/_screen_name_field_row (0.04519)
+Rendered user/_email_field_row (0.00313)
+Rendered user/_password_field_row (0.00055)
+Rendered user/_password_field_row (0.00057)
+Completed in 0.12482 (8 reqs/sec) | Rendering: 0.11863 (95%) | DB: 0.00546 (4%) | 200 OK [http://localhost/user/register]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-11 15:29:04) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.13483 (7 reqs/sec) | Rendering: 0.12820 (95%) | DB: 0.03529 (26%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-11 15:29:07) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.06077 (16 reqs/sec) | Rendering: 0.05625 (92%) | DB: 0.06839 (112%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-11 15:29:08) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.07363 (13 reqs/sec) | Rendering: 0.07098 (96%) | DB: 0.01287 (17%) | 200 OK [http://localhost/site/help]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-11 15:29:09) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Rendered user/_screen_name_field_row (0.02965)
+Rendered user/_email_field_row (0.00059)
+Rendered user/_password_field_row (0.00077)
+Rendered user/_password_field_row (0.00072)
+Completed in 0.10187 (9 reqs/sec) | Rendering: 0.09932 (97%) | DB: 0.00524 (5%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-11 15:29:10) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;36;1mUser Columns (0.007474)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Rendered user/_screen_name_field_row (0.00895)
+Rendered user/_password_field_row (0.00076)
+Completed in 0.09180 (10 reqs/sec) | Rendering: 0.06229 (67%) | DB: 0.01703 (18%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-11 15:29:11) [POST]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"user"=>{"screen_name"=>"", "password"=>"", "remember_me"=>"1"}, "commit"=>"Login!", "controller"=>"user", "action"=>"login"}
+  [4;35;1mUser Columns (0.008090)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.005776)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`screen_name` = '' AND `users`.`password` = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering user/login
+Rendered user/_screen_name_field_row (0.00102)
+Rendered user/_password_field_row (0.00085)
+Completed in 0.16323 (6 reqs/sec) | Rendering: 0.10284 (63%) | DB: 0.01894 (11%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-11 15:29:13) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Rendered user/_screen_name_field_row (0.02146)
+Rendered user/_email_field_row (0.00044)
+Rendered user/_password_field_row (0.00048)
+Rendered user/_password_field_row (0.00041)
+Completed in 0.08436 (11 reqs/sec) | Rendering: 0.08154 (96%) | DB: 0.06225 (73%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-11 15:29:20) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;35;1mUser Columns (0.006119)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Rendered user/_screen_name_field_row (0.01602)
+Rendered user/_password_field_row (0.00259)
+Completed in 0.08834 (11 reqs/sec) | Rendering: 0.06267 (70%) | DB: 0.04254 (48%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-11 15:29:29) [POST]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"user"=>{"screen_name"=>"alsnow", "password"=>"alsnow", "remember_me"=>"1"}, "commit"=>"Login!", "controller"=>"user", "action"=>"login"}
+  [4;36;1mUser Columns (0.005924)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.003309)[0m   [0mSELECT * FROM `users` WHERE (`users`.`screen_name` = 'alsnow' AND `users`.`password` = 'alsnow') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering user/login
+Rendered user/_screen_name_field_row (0.00232)
+Rendered user/_password_field_row (0.00068)
+Completed in 0.10035 (9 reqs/sec) | Rendering: 0.04907 (48%) | DB: 0.03628 (36%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-11 15:29:35) [POST]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"user"=>{"screen_name"=>"alsnow", "password"=>"alsnow1", "remember_me"=>"1"}, "commit"=>"Login!", "controller"=>"user", "action"=>"login"}
+  [4;36;1mUser Columns (0.005784)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.003041)[0m   [0mSELECT * FROM `users` WHERE (`users`.`screen_name` = 'alsnow' AND `users`.`password` = 'alsnow1') LIMIT 1[0m
+Cookie set: remember_me=1; path=/; expires=Sat, 11 May 2019 19:29:35 GMT
+  [4;36;1mSQL (0.001078)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.001533)[0m   [0mSELECT `screen_name` FROM `users` WHERE (`users`.screen_name = 'alsnow' AND `users`.id <> 1) [0m
+  [4;36;1mSQL (0.001257)[0m   [0;1mSELECT `email` FROM `users` WHERE (`users`.email = 'a@b.com' AND `users`.id <> 1) [0m
+  [4;35;1mSQL (0.000739)[0m   [0mCOMMIT[0m
+Cookie set: authorization_token=58c4e159427d6a67e2b9d74347b7df5ded710524; path=/; expires=Sat, 11 May 2019 19:29:35 GMT
+Redirected to http://localhost:3000/user
+Completed in 0.05467 (18 reqs/sec) | DB: 0.06243 (114%) | 302 Found [http://localhost/user/login]
+
+
+Processing UserController#index (for 127.0.0.1 at 2009-05-11 15:29:35) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"index"}
+  [4;36;1mUser Columns (0.006300)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.003258)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mSpec Load (0.020082)[0m   [0;1mSELECT * FROM `specs` WHERE (`specs`.user_id = 1) LIMIT 1[0m
+  [4;35;1mFaq Load (0.005392)[0m   [0mSELECT * FROM `faqs` WHERE (`faqs`.user_id = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mSpec Columns (0.006854)[0m   [0;1mSHOW FIELDS FROM `specs`[0m
+Rendered spec/_field_row (0.02324)
+Rendered spec/_field_row (0.00024)
+Rendered spec/_field_row (0.00015)
+Rendered spec/_field_row (0.00014)
+Rendered spec/_field_row (0.00132)
+Rendered spec/_field_row (0.00018)
+Rendered spec/_field_row (0.00014)
+Rendered spec/_field_row (0.00015)
+  [4;35;1mFaq Columns (0.006506)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+Rendered faq/_sidebar_box (0.01005)
+Rendered faq/_sidebar_box (0.00079)
+Rendered faq/_sidebar_box (0.00061)
+Rendered faq/_sidebar_box (0.00057)
+Rendered faq/_sidebar_box (0.00056)
+Rendered faq/_sidebar_box (0.00059)
+Rendered faq/_sidebar_box (0.00497)
+Rendered faq/_sidebar_box (0.00338)
+Completed in 0.27721 (3 reqs/sec) | Rendering: 0.16838 (60%) | DB: 0.10119 (36%) | 200 OK [http://localhost/user]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-11 15:29:42) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.05740 (17 reqs/sec) | Rendering: 0.04955 (86%) | DB: 0.03524 (61%) | 200 OK [http://localhost/site/help]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-11 15:29:43) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.04953 (20 reqs/sec) | Rendering: 0.04665 (94%) | DB: 0.02546 (51%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-11 15:29:44) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.05914 (16 reqs/sec) | Rendering: 0.05299 (89%) | DB: 0.00577 (9%) | 200 OK [http://localhost/]
+
+
+Processing UserController#index (for 127.0.0.1 at 2009-05-11 15:29:45) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"index"}
+  [4;36;1mUser Columns (0.006527)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.002732)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mSpec Load (0.005072)[0m   [0;1mSELECT * FROM `specs` WHERE (`specs`.user_id = 1) LIMIT 1[0m
+  [4;35;1mFaq Load (0.005226)[0m   [0mSELECT * FROM `faqs` WHERE (`faqs`.user_id = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mSpec Columns (0.006432)[0m   [0;1mSHOW FIELDS FROM `specs`[0m
+Rendered spec/_field_row (0.00862)
+Rendered spec/_field_row (0.00018)
+Rendered spec/_field_row (0.00013)
+Rendered spec/_field_row (0.00015)
+Rendered spec/_field_row (0.00095)
+Rendered spec/_field_row (0.00015)
+Rendered spec/_field_row (0.00016)
+Rendered spec/_field_row (0.00013)
+  [4;35;1mFaq Columns (0.006440)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+Rendered faq/_sidebar_box (0.00934)
+Rendered faq/_sidebar_box (0.00088)
+Rendered faq/_sidebar_box (0.00071)
+Rendered faq/_sidebar_box (0.00058)
+Rendered faq/_sidebar_box (0.00056)
+Rendered faq/_sidebar_box (0.00065)
+Rendered faq/_sidebar_box (0.00071)
+Rendered faq/_sidebar_box (0.00063)
+Completed in 0.16096 (6 reqs/sec) | Rendering: 0.07343 (45%) | DB: 0.03647 (22%) | 200 OK [http://localhost/user]
+
+
+Processing UserController#logout (for 127.0.0.1 at 2009-05-11 15:29:46) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"logout"}
+Cookie set: authorization_token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT
+Redirected to http://localhost:3000/
+Completed in 0.02627 (38 reqs/sec) | DB: 0.00434 (16%) | 302 Found [http://localhost/user/logout]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-11 15:29:46) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.05139 (19 reqs/sec) | Rendering: 0.04940 (96%) | DB: 0.02052 (39%) | 200 OK [http://localhost/]
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.001000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.015000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+  [4;35;1mSQL (0.004000)[0m   [0mdescribe `faqs`[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mSHOW KEYS FROM `faqs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mSHOW FIELDS FROM `sessions`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mdescribe `sessions`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW KEYS FROM `sessions`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `specs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `specs`[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mSHOW KEYS FROM `specs`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.263000)[0m   [0;1mDROP DATABASE IF EXISTS `rails_space_test`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mCREATE DATABASE `rails_space_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.051000)[0m   [0mCREATE TABLE `faqs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `bio` text DEFAULT NULL NULL, `skillz` text DEFAULT NULL NULL, `schools` text DEFAULT NULL NULL, `companies` text DEFAULT NULL NULL, `music` text DEFAULT NULL NULL, `movies` text DEFAULT NULL NULL, `television` text DEFAULT NULL NULL, `magazines` text DEFAULT NULL NULL, `books` text DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.111000)[0m   [0mCREATE TABLE `sessions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `session_id` varchar(255) DEFAULT '' NOT NULL, `data` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.174000)[0m   [0;1mCREATE INDEX `index_sessions_on_session_id` ON `sessions` (`session_id`)[0m
+  [4;35;1mSQL (0.124000)[0m   [0mCREATE INDEX `index_sessions_on_updated_at` ON `sessions` (`updated_at`)[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.079000)[0m   [0mCREATE TABLE `specs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `first_name` varchar(255) DEFAULT '' NULL, `last_name` varchar(255) DEFAULT '' NULL, `gender` varchar(255) DEFAULT NULL NULL, `birthdate` date DEFAULT NULL NULL, `occupation` varchar(255) DEFAULT '' NULL, `city` varchar(255) DEFAULT '' NULL, `state` varchar(255) DEFAULT '' NULL, `zip_code` varchar(255) DEFAULT '' NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.058000)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `screen_name` varchar(255) DEFAULT NULL NULL, `email` varchar(255) DEFAULT NULL NULL, `password` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL, `authorization_token` varchar(255) DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.056000)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.122000)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (0.024000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090510031630')[0m
+  [4;36;1mSQL (0.022000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090508232714')[0m
+  [4;35;1mSQL (0.019000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.019000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090509004615')[0m
+  [4;35;1mSQL (0.040000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090509112617')[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.001000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.004000)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `faqs`[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mSHOW KEYS FROM `faqs`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW FIELDS FROM `sessions`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mdescribe `sessions`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW KEYS FROM `sessions`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `specs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `specs`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW KEYS FROM `specs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.169000)[0m   [0;1mDROP DATABASE IF EXISTS `rails_space_test`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mCREATE DATABASE `rails_space_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.050000)[0m   [0mCREATE TABLE `faqs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `bio` text DEFAULT NULL NULL, `skillz` text DEFAULT NULL NULL, `schools` text DEFAULT NULL NULL, `companies` text DEFAULT NULL NULL, `music` text DEFAULT NULL NULL, `movies` text DEFAULT NULL NULL, `television` text DEFAULT NULL NULL, `magazines` text DEFAULT NULL NULL, `books` text DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.064000)[0m   [0mCREATE TABLE `sessions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `session_id` varchar(255) DEFAULT '' NOT NULL, `data` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.131000)[0m   [0;1mCREATE INDEX `index_sessions_on_session_id` ON `sessions` (`session_id`)[0m
+  [4;35;1mSQL (0.226000)[0m   [0mCREATE INDEX `index_sessions_on_updated_at` ON `sessions` (`updated_at`)[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.079000)[0m   [0mCREATE TABLE `specs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `first_name` varchar(255) DEFAULT '' NULL, `last_name` varchar(255) DEFAULT '' NULL, `gender` varchar(255) DEFAULT NULL NULL, `birthdate` date DEFAULT NULL NULL, `occupation` varchar(255) DEFAULT '' NULL, `city` varchar(255) DEFAULT '' NULL, `state` varchar(255) DEFAULT '' NULL, `zip_code` varchar(255) DEFAULT '' NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.047000)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `screen_name` varchar(255) DEFAULT NULL NULL, `email` varchar(255) DEFAULT NULL NULL, `password` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL, `authorization_token` varchar(255) DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.050000)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.121000)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (0.023000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090510031630')[0m
+  [4;36;1mSQL (0.018000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090508232714')[0m
+  [4;35;1mSQL (0.022000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.019000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090509004615')[0m
+  [4;35;1mSQL (0.023000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090509112617')[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.001000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `faqs`[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mSHOW KEYS FROM `faqs`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW FIELDS FROM `sessions`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mdescribe `sessions`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW KEYS FROM `sessions`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `specs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `specs`[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mSHOW KEYS FROM `specs`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.191000)[0m   [0;1mDROP DATABASE IF EXISTS `rails_space_test`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mCREATE DATABASE `rails_space_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.078000)[0m   [0mCREATE TABLE `faqs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `bio` text DEFAULT NULL NULL, `skillz` text DEFAULT NULL NULL, `schools` text DEFAULT NULL NULL, `companies` text DEFAULT NULL NULL, `music` text DEFAULT NULL NULL, `movies` text DEFAULT NULL NULL, `television` text DEFAULT NULL NULL, `magazines` text DEFAULT NULL NULL, `books` text DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.064000)[0m   [0mCREATE TABLE `sessions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `session_id` varchar(255) DEFAULT '' NOT NULL, `data` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.167000)[0m   [0;1mCREATE INDEX `index_sessions_on_session_id` ON `sessions` (`session_id`)[0m
+  [4;35;1mSQL (0.188000)[0m   [0mCREATE INDEX `index_sessions_on_updated_at` ON `sessions` (`updated_at`)[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.080000)[0m   [0mCREATE TABLE `specs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `first_name` varchar(255) DEFAULT '' NULL, `last_name` varchar(255) DEFAULT '' NULL, `gender` varchar(255) DEFAULT NULL NULL, `birthdate` date DEFAULT NULL NULL, `occupation` varchar(255) DEFAULT '' NULL, `city` varchar(255) DEFAULT '' NULL, `state` varchar(255) DEFAULT '' NULL, `zip_code` varchar(255) DEFAULT '' NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.056000)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `screen_name` varchar(255) DEFAULT NULL NULL, `email` varchar(255) DEFAULT NULL NULL, `password` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL, `authorization_token` varchar(255) DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.065000)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.183000)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (0.022000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090510031630')[0m
+  [4;36;1mSQL (0.023000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090508232714')[0m
+  [4;35;1mSQL (0.042000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.026000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090509004615')[0m
+  [4;35;1mSQL (0.023000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090509112617')[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `faqs`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW KEYS FROM `faqs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mSHOW FIELDS FROM `sessions`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mdescribe `sessions`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW KEYS FROM `sessions`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `specs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `specs`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW KEYS FROM `specs`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.112000)[0m   [0;1mDROP DATABASE IF EXISTS `rails_space_test`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mCREATE DATABASE `rails_space_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.061000)[0m   [0mCREATE TABLE `faqs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `bio` text DEFAULT NULL NULL, `skillz` text DEFAULT NULL NULL, `schools` text DEFAULT NULL NULL, `companies` text DEFAULT NULL NULL, `music` text DEFAULT NULL NULL, `movies` text DEFAULT NULL NULL, `television` text DEFAULT NULL NULL, `magazines` text DEFAULT NULL NULL, `books` text DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.085000)[0m   [0mCREATE TABLE `sessions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `session_id` varchar(255) DEFAULT '' NOT NULL, `data` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.160000)[0m   [0;1mCREATE INDEX `index_sessions_on_session_id` ON `sessions` (`session_id`)[0m
+  [4;35;1mSQL (0.122000)[0m   [0mCREATE INDEX `index_sessions_on_updated_at` ON `sessions` (`updated_at`)[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.094000)[0m   [0mCREATE TABLE `specs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `first_name` varchar(255) DEFAULT '' NULL, `last_name` varchar(255) DEFAULT '' NULL, `gender` varchar(255) DEFAULT NULL NULL, `birthdate` date DEFAULT NULL NULL, `occupation` varchar(255) DEFAULT '' NULL, `city` varchar(255) DEFAULT '' NULL, `state` varchar(255) DEFAULT '' NULL, `zip_code` varchar(255) DEFAULT '' NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.067000)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `screen_name` varchar(255) DEFAULT NULL NULL, `email` varchar(255) DEFAULT NULL NULL, `password` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL, `authorization_token` varchar(255) DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.048000)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.115000)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (0.022000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090510031630')[0m
+  [4;36;1mSQL (0.018000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090508232714')[0m
+  [4;35;1mSQL (0.023000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.018000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090509004615')[0m
+  [4;35;1mSQL (0.023000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090509112617')[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.001000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `faqs`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW KEYS FROM `faqs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mSHOW FIELDS FROM `sessions`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mdescribe `sessions`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW KEYS FROM `sessions`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `specs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `specs`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW KEYS FROM `specs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.182000)[0m   [0;1mDROP DATABASE IF EXISTS `rails_space_test`[0m
+  [4;35;1mSQL (0.001000)[0m   [0mCREATE DATABASE `rails_space_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.064000)[0m   [0mCREATE TABLE `faqs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `bio` text DEFAULT NULL NULL, `skillz` text DEFAULT NULL NULL, `schools` text DEFAULT NULL NULL, `companies` text DEFAULT NULL NULL, `music` text DEFAULT NULL NULL, `movies` text DEFAULT NULL NULL, `television` text DEFAULT NULL NULL, `magazines` text DEFAULT NULL NULL, `books` text DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.183000)[0m   [0mCREATE TABLE `sessions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `session_id` varchar(255) DEFAULT '' NOT NULL, `data` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.327000)[0m   [0;1mCREATE INDEX `index_sessions_on_session_id` ON `sessions` (`session_id`)[0m
+  [4;35;1mSQL (0.174000)[0m   [0mCREATE INDEX `index_sessions_on_updated_at` ON `sessions` (`updated_at`)[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.063000)[0m   [0mCREATE TABLE `specs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `first_name` varchar(255) DEFAULT '' NULL, `last_name` varchar(255) DEFAULT '' NULL, `gender` varchar(255) DEFAULT NULL NULL, `birthdate` date DEFAULT NULL NULL, `occupation` varchar(255) DEFAULT '' NULL, `city` varchar(255) DEFAULT '' NULL, `state` varchar(255) DEFAULT '' NULL, `zip_code` varchar(255) DEFAULT '' NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.064000)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `screen_name` varchar(255) DEFAULT NULL NULL, `email` varchar(255) DEFAULT NULL NULL, `password` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL, `authorization_token` varchar(255) DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.065000)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.153000)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (0.027000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090510031630')[0m
+  [4;36;1mSQL (0.023000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090508232714')[0m
+  [4;35;1mSQL (0.024000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.025000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090509004615')[0m
+  [4;35;1mSQL (0.018000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090509112617')[0m
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-11 15:41:27) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.06249 (16 reqs/sec) | Rendering: 0.05965 (95%) | DB: 0.03837 (61%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-11 15:41:28) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.05354 (18 reqs/sec) | Rendering: 0.05079 (94%) | DB: 0.03246 (60%) | 200 OK [http://localhost/site/help]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 15:41:29) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index"}
+Rendering template within layouts/application
+Rendering community/index
+Completed in 0.05380 (18 reqs/sec) | Rendering: 0.05077 (94%) | DB: 0.00534 (9%) | 200 OK [http://localhost/community]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-11 15:41:31) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Rendered user/_screen_name_field_row (0.02506)
+Rendered user/_email_field_row (0.00068)
+Rendered user/_password_field_row (0.00046)
+Rendered user/_password_field_row (0.00041)
+Completed in 0.11289 (8 reqs/sec) | Rendering: 0.08212 (72%) | DB: 0.00472 (4%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-11 15:41:33) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;36;1mUser Columns (0.006385)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Rendered user/_screen_name_field_row (0.00950)
+Rendered user/_password_field_row (0.00110)
+Completed in 0.09072 (11 reqs/sec) | Rendering: 0.05797 (63%) | DB: 0.01031 (11%) | 200 OK [http://localhost/user/login]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-11 15:41:36) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.03702 (27 reqs/sec) | Rendering: 0.03431 (92%) | DB: 0.00480 (12%) | 200 OK [http://localhost/]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 15:41:38) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index"}
+Rendering template within layouts/application
+Rendering community/index
+Completed in 0.06185 (16 reqs/sec) | Rendering: 0.05909 (95%) | DB: 0.00498 (8%) | 200 OK [http://localhost/community]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 15:41:41) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index", "id"=>"S"}
+  [4;35;1mSpec Load (0.015693)[0m   [0mSELECT * FROM `specs` WHERE (last_name like 'S%') ORDER BY last_name, first_name[0m
+  [4;36;1mSpec Columns (0.006061)[0m   [0;1mSHOW FIELDS FROM `specs`[0m
+  [4;35;1mUser Columns (0.005461)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.002400)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering community/index
+Completed in 0.11084 (9 reqs/sec) | Rendering: 0.04105 (37%) | DB: 0.03518 (31%) | 200 OK [http://localhost/community/index/S]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 15:41:42) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index", "id"=>"S"}
+  [4;35;1mSpec Load (0.003974)[0m   [0mSELECT * FROM `specs` WHERE (last_name like 'S%') ORDER BY last_name, first_name[0m
+  [4;36;1mSpec Columns (0.006675)[0m   [0;1mSHOW FIELDS FROM `specs`[0m
+  [4;35;1mUser Columns (0.005208)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.002579)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering community/index
+Completed in 0.11065 (9 reqs/sec) | Rendering: 0.04671 (42%) | DB: 0.02298 (20%) | 200 OK [http://localhost/community/index/S]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 15:41:43) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index", "id"=>"S"}
+  [4;35;1mSpec Load (0.004609)[0m   [0mSELECT * FROM `specs` WHERE (last_name like 'S%') ORDER BY last_name, first_name[0m
+  [4;36;1mSpec Columns (0.005993)[0m   [0;1mSHOW FIELDS FROM `specs`[0m
+  [4;35;1mUser Columns (0.005292)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.002352)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering community/index
+Completed in 0.14779 (6 reqs/sec) | Rendering: 0.06780 (45%) | DB: 0.02303 (15%) | 200 OK [http://localhost/community/index/S]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 15:41:44) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index", "id"=>"W"}
+  [4;35;1mSpec Load (0.002851)[0m   [0mSELECT * FROM `specs` WHERE (last_name like 'W%') ORDER BY last_name, first_name[0m
+Rendering template within layouts/application
+Rendering community/index
+Completed in 0.06123 (16 reqs/sec) | Rendering: 0.04043 (66%) | DB: 0.00755 (12%) | 200 OK [http://localhost/community/index/W]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 15:41:46) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index", "id"=>"X"}
+  [4;36;1mSpec Load (0.004175)[0m   [0;1mSELECT * FROM `specs` WHERE (last_name like 'X%') ORDER BY last_name, first_name[0m
+Rendering template within layouts/application
+Rendering community/index
+Completed in 0.06942 (14 reqs/sec) | Rendering: 0.04740 (68%) | DB: 0.00915 (13%) | 200 OK [http://localhost/community/index/X]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 15:41:48) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index", "id"=>"Y"}
+  [4;35;1mSpec Load (0.003638)[0m   [0mSELECT * FROM `specs` WHERE (last_name like 'Y%') ORDER BY last_name, first_name[0m
+Rendering template within layouts/application
+Rendering community/index
+Completed in 0.13711 (7 reqs/sec) | Rendering: 0.04077 (29%) | DB: 0.00884 (6%) | 200 OK [http://localhost/community/index/Y]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 15:41:48) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index", "id"=>"Z"}
+  [4;36;1mSpec Load (0.003197)[0m   [0;1mSELECT * FROM `specs` WHERE (last_name like 'Z%') ORDER BY last_name, first_name[0m
+Rendering template within layouts/application
+Rendering community/index
+Completed in 0.06712 (14 reqs/sec) | Rendering: 0.03862 (57%) | DB: 0.00775 (11%) | 200 OK [http://localhost/community/index/Z]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 15:41:51) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index", "id"=>"E"}
+  [4;35;1mSpec Load (0.003297)[0m   [0mSELECT * FROM `specs` WHERE (last_name like 'E%') ORDER BY last_name, first_name[0m
+Rendering template within layouts/application
+Rendering community/index
+Completed in 0.06918 (14 reqs/sec) | Rendering: 0.04762 (68%) | DB: 0.00795 (11%) | 200 OK [http://localhost/community/index/E]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 15:41:53) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index", "id"=>"D"}
+  [4;36;1mSpec Load (0.004315)[0m   [0;1mSELECT * FROM `specs` WHERE (last_name like 'D%') ORDER BY last_name, first_name[0m
+Rendering template within layouts/application
+Rendering community/index
+Completed in 0.07212 (13 reqs/sec) | Rendering: 0.04357 (60%) | DB: 0.00931 (12%) | 200 OK [http://localhost/community/index/D]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 15:41:54) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index", "id"=>"C"}
+  [4;35;1mSpec Load (0.002889)[0m   [0mSELECT * FROM `specs` WHERE (last_name like 'C%') ORDER BY last_name, first_name[0m
+Rendering template within layouts/application
+Rendering community/index
+Completed in 0.05286 (18 reqs/sec) | Rendering: 0.03755 (71%) | DB: 0.00668 (12%) | 200 OK [http://localhost/community/index/C]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-11 15:42:32) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.13522 (7 reqs/sec) | Rendering: 0.12989 (96%) | DB: 0.02003 (14%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-11 15:42:34) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.05876 (17 reqs/sec) | Rendering: 0.05451 (92%) | DB: 0.00665 (11%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-11 15:42:35) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.07163 (13 reqs/sec) | Rendering: 0.06858 (95%) | DB: 0.01277 (17%) | 200 OK [http://localhost/site/help]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-11 15:42:36) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Rendered user/_screen_name_field_row (0.02959)
+Rendered user/_email_field_row (0.00063)
+Rendered user/_password_field_row (0.00088)
+Rendered user/_password_field_row (0.00070)
+Completed in 0.10729 (9 reqs/sec) | Rendering: 0.10475 (97%) | DB: 0.00549 (5%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-11 15:42:37) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;36;1mUser Columns (0.007582)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Rendered user/_screen_name_field_row (0.01034)
+Rendered user/_password_field_row (0.00078)
+Completed in 0.14732 (6 reqs/sec) | Rendering: 0.11103 (75%) | DB: 0.01941 (13%) | 200 OK [http://localhost/user/login]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 15:42:38) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index"}
+Rendering template within layouts/application
+Rendering community/index
+Completed in 0.06248 (16 reqs/sec) | Rendering: 0.05870 (93%) | DB: 0.00539 (8%) | 200 OK [http://localhost/community]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 15:43:32) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index"}
+Rendering template within layouts/application
+Rendering community/index
+Completed in 0.08967 (11 reqs/sec) | Rendering: 0.08686 (96%) | DB: 0.00442 (4%) | 200 OK [http://localhost/community]
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.001000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `faqs`[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mSHOW KEYS FROM `faqs`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW FIELDS FROM `sessions`[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mdescribe `sessions`[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW KEYS FROM `sessions`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `specs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `specs`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW KEYS FROM `specs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.151000)[0m   [0;1mDROP DATABASE IF EXISTS `rails_space_test`[0m
+  [4;35;1mSQL (0.001000)[0m   [0mCREATE DATABASE `rails_space_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.164000)[0m   [0mCREATE TABLE `faqs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `bio` text DEFAULT NULL NULL, `skillz` text DEFAULT NULL NULL, `schools` text DEFAULT NULL NULL, `companies` text DEFAULT NULL NULL, `music` text DEFAULT NULL NULL, `movies` text DEFAULT NULL NULL, `television` text DEFAULT NULL NULL, `magazines` text DEFAULT NULL NULL, `books` text DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.096000)[0m   [0mCREATE TABLE `sessions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `session_id` varchar(255) DEFAULT '' NOT NULL, `data` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.148000)[0m   [0;1mCREATE INDEX `index_sessions_on_session_id` ON `sessions` (`session_id`)[0m
+  [4;35;1mSQL (0.117000)[0m   [0mCREATE INDEX `index_sessions_on_updated_at` ON `sessions` (`updated_at`)[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.056000)[0m   [0mCREATE TABLE `specs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `first_name` varchar(255) DEFAULT '' NULL, `last_name` varchar(255) DEFAULT '' NULL, `gender` varchar(255) DEFAULT NULL NULL, `birthdate` date DEFAULT NULL NULL, `occupation` varchar(255) DEFAULT '' NULL, `city` varchar(255) DEFAULT '' NULL, `state` varchar(255) DEFAULT '' NULL, `zip_code` varchar(255) DEFAULT '' NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.087000)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `screen_name` varchar(255) DEFAULT NULL NULL, `email` varchar(255) DEFAULT NULL NULL, `password` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL, `authorization_token` varchar(255) DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.065000)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.123000)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (0.022000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090510031630')[0m
+  [4;36;1mSQL (0.023000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090508232714')[0m
+  [4;35;1mSQL (0.026000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.018000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090509004615')[0m
+  [4;35;1mSQL (0.024000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090509112617')[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.001000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+  [4;35;1mSQL (0.004000)[0m   [0mdescribe `faqs`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW KEYS FROM `faqs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mSHOW FIELDS FROM `sessions`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mdescribe `sessions`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW KEYS FROM `sessions`[0m
+  [4;36;1mSQL (0.004000)[0m   [0;1mSHOW FIELDS FROM `specs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `specs`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW KEYS FROM `specs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.178000)[0m   [0;1mDROP DATABASE IF EXISTS `rails_space_test`[0m
+  [4;35;1mSQL (0.001000)[0m   [0mCREATE DATABASE `rails_space_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.061000)[0m   [0mCREATE TABLE `faqs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `bio` text DEFAULT NULL NULL, `skillz` text DEFAULT NULL NULL, `schools` text DEFAULT NULL NULL, `companies` text DEFAULT NULL NULL, `music` text DEFAULT NULL NULL, `movies` text DEFAULT NULL NULL, `television` text DEFAULT NULL NULL, `magazines` text DEFAULT NULL NULL, `books` text DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.048000)[0m   [0mCREATE TABLE `sessions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `session_id` varchar(255) DEFAULT '' NOT NULL, `data` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.138000)[0m   [0;1mCREATE INDEX `index_sessions_on_session_id` ON `sessions` (`session_id`)[0m
+  [4;35;1mSQL (0.174000)[0m   [0mCREATE INDEX `index_sessions_on_updated_at` ON `sessions` (`updated_at`)[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.079000)[0m   [0mCREATE TABLE `specs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `first_name` varchar(255) DEFAULT '' NULL, `last_name` varchar(255) DEFAULT '' NULL, `gender` varchar(255) DEFAULT NULL NULL, `birthdate` date DEFAULT NULL NULL, `occupation` varchar(255) DEFAULT '' NULL, `city` varchar(255) DEFAULT '' NULL, `state` varchar(255) DEFAULT '' NULL, `zip_code` varchar(255) DEFAULT '' NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.064000)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `screen_name` varchar(255) DEFAULT NULL NULL, `email` varchar(255) DEFAULT NULL NULL, `password` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL, `authorization_token` varchar(255) DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.065000)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.207000)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (0.054000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090510031630')[0m
+  [4;36;1mSQL (0.040000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090508232714')[0m
+  [4;35;1mSQL (0.049000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.017000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090509004615')[0m
+  [4;35;1mSQL (0.024000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090509112617')[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.001000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.004000)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `faqs`[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mSHOW KEYS FROM `faqs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mSHOW FIELDS FROM `sessions`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mdescribe `sessions`[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW KEYS FROM `sessions`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `specs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `specs`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW KEYS FROM `specs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.206000)[0m   [0;1mDROP DATABASE IF EXISTS `rails_space_test`[0m
+  [4;35;1mSQL (0.001000)[0m   [0mCREATE DATABASE `rails_space_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.052000)[0m   [0mCREATE TABLE `faqs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `bio` text DEFAULT NULL NULL, `skillz` text DEFAULT NULL NULL, `schools` text DEFAULT NULL NULL, `companies` text DEFAULT NULL NULL, `music` text DEFAULT NULL NULL, `movies` text DEFAULT NULL NULL, `television` text DEFAULT NULL NULL, `magazines` text DEFAULT NULL NULL, `books` text DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.064000)[0m   [0mCREATE TABLE `sessions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `session_id` varchar(255) DEFAULT '' NOT NULL, `data` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.265000)[0m   [0;1mCREATE INDEX `index_sessions_on_session_id` ON `sessions` (`session_id`)[0m
+  [4;35;1mSQL (0.165000)[0m   [0mCREATE INDEX `index_sessions_on_updated_at` ON `sessions` (`updated_at`)[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.080000)[0m   [0mCREATE TABLE `specs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `first_name` varchar(255) DEFAULT '' NULL, `last_name` varchar(255) DEFAULT '' NULL, `gender` varchar(255) DEFAULT NULL NULL, `birthdate` date DEFAULT NULL NULL, `occupation` varchar(255) DEFAULT '' NULL, `city` varchar(255) DEFAULT '' NULL, `state` varchar(255) DEFAULT '' NULL, `zip_code` varchar(255) DEFAULT '' NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.087000)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `screen_name` varchar(255) DEFAULT NULL NULL, `email` varchar(255) DEFAULT NULL NULL, `password` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL, `authorization_token` varchar(255) DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.102000)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.193000)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (0.023000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090510031630')[0m
+  [4;36;1mSQL (0.017000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090508232714')[0m
+  [4;35;1mSQL (0.025000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.017000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090509004615')[0m
+  [4;35;1mSQL (0.024000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090509112617')[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `faqs`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW KEYS FROM `faqs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mSHOW FIELDS FROM `sessions`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mdescribe `sessions`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW KEYS FROM `sessions`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `specs`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mdescribe `specs`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW KEYS FROM `specs`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.208000)[0m   [0;1mDROP DATABASE IF EXISTS `rails_space_test`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mCREATE DATABASE `rails_space_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.080000)[0m   [0mCREATE TABLE `faqs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `bio` text DEFAULT NULL NULL, `skillz` text DEFAULT NULL NULL, `schools` text DEFAULT NULL NULL, `companies` text DEFAULT NULL NULL, `music` text DEFAULT NULL NULL, `movies` text DEFAULT NULL NULL, `television` text DEFAULT NULL NULL, `magazines` text DEFAULT NULL NULL, `books` text DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.078000)[0m   [0mCREATE TABLE `sessions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `session_id` varchar(255) DEFAULT '' NOT NULL, `data` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.159000)[0m   [0;1mCREATE INDEX `index_sessions_on_session_id` ON `sessions` (`session_id`)[0m
+  [4;35;1mSQL (0.182000)[0m   [0mCREATE INDEX `index_sessions_on_updated_at` ON `sessions` (`updated_at`)[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.071000)[0m   [0mCREATE TABLE `specs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `first_name` varchar(255) DEFAULT '' NULL, `last_name` varchar(255) DEFAULT '' NULL, `gender` varchar(255) DEFAULT NULL NULL, `birthdate` date DEFAULT NULL NULL, `occupation` varchar(255) DEFAULT '' NULL, `city` varchar(255) DEFAULT '' NULL, `state` varchar(255) DEFAULT '' NULL, `zip_code` varchar(255) DEFAULT '' NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.063000)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `screen_name` varchar(255) DEFAULT NULL NULL, `email` varchar(255) DEFAULT NULL NULL, `password` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL, `authorization_token` varchar(255) DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.048000)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.140000)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (0.013000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090510031630')[0m
+  [4;36;1mSQL (0.024000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090508232714')[0m
+  [4;35;1mSQL (0.018000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.023000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090509004615')[0m
+  [4;35;1mSQL (0.027000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090509112617')[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `faqs`[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mSHOW KEYS FROM `faqs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mSHOW FIELDS FROM `sessions`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mdescribe `sessions`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW KEYS FROM `sessions`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `specs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `specs`[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mSHOW KEYS FROM `specs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.133000)[0m   [0;1mDROP DATABASE IF EXISTS `rails_space_test`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mCREATE DATABASE `rails_space_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.134000)[0m   [0mCREATE TABLE `faqs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `bio` text DEFAULT NULL NULL, `skillz` text DEFAULT NULL NULL, `schools` text DEFAULT NULL NULL, `companies` text DEFAULT NULL NULL, `music` text DEFAULT NULL NULL, `movies` text DEFAULT NULL NULL, `television` text DEFAULT NULL NULL, `magazines` text DEFAULT NULL NULL, `books` text DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.055000)[0m   [0mCREATE TABLE `sessions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `session_id` varchar(255) DEFAULT '' NOT NULL, `data` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.223000)[0m   [0;1mCREATE INDEX `index_sessions_on_session_id` ON `sessions` (`session_id`)[0m
+  [4;35;1mSQL (0.155000)[0m   [0mCREATE INDEX `index_sessions_on_updated_at` ON `sessions` (`updated_at`)[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.048000)[0m   [0mCREATE TABLE `specs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `first_name` varchar(255) DEFAULT '' NULL, `last_name` varchar(255) DEFAULT '' NULL, `gender` varchar(255) DEFAULT NULL NULL, `birthdate` date DEFAULT NULL NULL, `occupation` varchar(255) DEFAULT '' NULL, `city` varchar(255) DEFAULT '' NULL, `state` varchar(255) DEFAULT '' NULL, `zip_code` varchar(255) DEFAULT '' NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.047000)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `screen_name` varchar(255) DEFAULT NULL NULL, `email` varchar(255) DEFAULT NULL NULL, `password` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL, `authorization_token` varchar(255) DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.064000)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.199000)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (0.020000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090510031630')[0m
+  [4;36;1mSQL (0.023000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090508232714')[0m
+  [4;35;1mSQL (0.060000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.031000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090509004615')[0m
+  [4;35;1mSQL (0.018000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090509112617')[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-11 15:51:15) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"index"}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.04573 (21 reqs/sec) | Rendering: 0.04350 (95%) | DB: 0.00903 (19%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-11 15:51:17) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.04883 (20 reqs/sec) | Rendering: 0.04636 (94%) | DB: 0.00497 (10%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-11 15:51:18) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.04157 (24 reqs/sec) | Rendering: 0.03982 (95%) | DB: 0.00497 (11%) | 200 OK [http://localhost/site/help]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-11 15:51:18) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Rendered user/_screen_name_field_row (0.02776)
+Rendered user/_email_field_row (0.00047)
+Rendered user/_password_field_row (0.00050)
+Rendered user/_password_field_row (0.00043)
+Completed in 0.07710 (12 reqs/sec) | Rendering: 0.07515 (97%) | DB: 0.00642 (8%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-11 15:51:19) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;35;1mUser Columns (0.011711)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Rendered user/_screen_name_field_row (0.01715)
+Rendered user/_password_field_row (0.00084)
+Completed in 0.09819 (10 reqs/sec) | Rendering: 0.06129 (62%) | DB: 0.01627 (16%) | 200 OK [http://localhost/user/login]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-11 15:51:20) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.05527 (18 reqs/sec) | Rendering: 0.05351 (96%) | DB: 0.01229 (22%) | 200 OK [http://localhost/site/help]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 15:51:22) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index"}
+Rendering template within layouts/application
+Rendering community/index
+Rendered community/_user_table (0.00007)
+Completed in 0.05468 (18 reqs/sec) | Rendering: 0.05266 (96%) | DB: 0.00510 (9%) | 200 OK [http://localhost/community]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 15:51:24) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index", "id"=>"S"}
+  [4;36;1mSpec Load (0.004502)[0m   [0;1mSELECT * FROM `specs` WHERE (last_name like 'S%') ORDER BY last_name, first_name[0m
+  [4;35;1mSpec Columns (0.010720)[0m   [0mSHOW FIELDS FROM `specs`[0m
+  [4;36;1mUser Columns (0.006014)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.003131)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering community/index
+  [4;36;1mSpec Load (0.003858)[0m   [0;1mSELECT * FROM `specs` WHERE (`specs`.user_id = 1) LIMIT 1[0m
+Rendered community/_user_table (0.02456)
+Completed in 0.15276 (6 reqs/sec) | Rendering: 0.06294 (41%) | DB: 0.03276 (21%) | 200 OK [http://localhost/community/index/S]
+
+
+Processing ProfileController#show (for 127.0.0.1 at 2009-05-11 15:51:26) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"profile", "action"=>"show", "screen_name"=>"alsnow"}
+  [4;35;1mUser Columns (0.007021)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.004025)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`screen_name` = 'alsnow') LIMIT 1[0m
+  [4;35;1mSpec Load (0.003490)[0m   [0mSELECT * FROM `specs` WHERE (`specs`.user_id = 1) LIMIT 1[0m
+  [4;36;1mFaq Load (0.003791)[0m   [0;1mSELECT * FROM `faqs` WHERE (`faqs`.user_id = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering profile/show
+  [4;35;1mFaq Columns (0.006104)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+Rendered faq/_sidebar_box (0.02203)
+Rendered faq/_sidebar_box (0.00059)
+Rendered faq/_sidebar_box (0.00028)
+Rendered faq/_sidebar_box (0.00016)
+Rendered faq/_sidebar_box (0.00516)
+Rendered faq/_sidebar_box (0.00022)
+Rendered faq/_sidebar_box (0.00027)
+Rendered faq/_sidebar_box (0.00019)
+  [4;36;1mSpec Columns (0.007408)[0m   [0;1mSHOW FIELDS FROM `specs`[0m
+Completed in 0.19282 (5 reqs/sec) | Rendering: 0.10212 (52%) | DB: 0.03599 (18%) | 200 OK [http://localhost/profile/alsnow]
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `faqs`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW KEYS FROM `faqs`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW FIELDS FROM `sessions`[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mdescribe `sessions`[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW KEYS FROM `sessions`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `specs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `specs`[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mSHOW KEYS FROM `specs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.134000)[0m   [0;1mDROP DATABASE IF EXISTS `rails_space_test`[0m
+  [4;35;1mSQL (0.001000)[0m   [0mCREATE DATABASE `rails_space_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.104000)[0m   [0mCREATE TABLE `faqs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `bio` text DEFAULT NULL NULL, `skillz` text DEFAULT NULL NULL, `schools` text DEFAULT NULL NULL, `companies` text DEFAULT NULL NULL, `music` text DEFAULT NULL NULL, `movies` text DEFAULT NULL NULL, `television` text DEFAULT NULL NULL, `magazines` text DEFAULT NULL NULL, `books` text DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.069000)[0m   [0mCREATE TABLE `sessions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `session_id` varchar(255) DEFAULT '' NOT NULL, `data` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.132000)[0m   [0;1mCREATE INDEX `index_sessions_on_session_id` ON `sessions` (`session_id`)[0m
+  [4;35;1mSQL (0.123000)[0m   [0mCREATE INDEX `index_sessions_on_updated_at` ON `sessions` (`updated_at`)[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.099000)[0m   [0mCREATE TABLE `specs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `first_name` varchar(255) DEFAULT '' NULL, `last_name` varchar(255) DEFAULT '' NULL, `gender` varchar(255) DEFAULT NULL NULL, `birthdate` date DEFAULT NULL NULL, `occupation` varchar(255) DEFAULT '' NULL, `city` varchar(255) DEFAULT '' NULL, `state` varchar(255) DEFAULT '' NULL, `zip_code` varchar(255) DEFAULT '' NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.068000)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `screen_name` varchar(255) DEFAULT NULL NULL, `email` varchar(255) DEFAULT NULL NULL, `password` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL, `authorization_token` varchar(255) DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.057000)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.155000)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (0.014000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090510031630')[0m
+  [4;36;1mSQL (0.022000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090508232714')[0m
+  [4;35;1mSQL (0.019000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.023000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090509004615')[0m
+  [4;35;1mSQL (0.018000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090509112617')[0m
+WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library is not suited for production. Please install the C-based MySQL library instead (gem install mysql).
+  [4;36;1mSQL (0.001000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `faqs`[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mSHOW KEYS FROM `faqs`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mSHOW FIELDS FROM `sessions`[0m
+  [4;36;1mSQL (0.002000)[0m   [0;1mdescribe `sessions`[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW KEYS FROM `sessions`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mSHOW FIELDS FROM `specs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mdescribe `specs`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW KEYS FROM `specs`[0m
+  [4;35;1mSQL (0.003000)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.003000)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.209000)[0m   [0;1mDROP DATABASE IF EXISTS `rails_space_test`[0m
+  [4;35;1mSQL (0.002000)[0m   [0mCREATE DATABASE `rails_space_test` DEFAULT CHARACTER SET `utf8`[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.057000)[0m   [0mCREATE TABLE `faqs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `bio` text DEFAULT NULL NULL, `skillz` text DEFAULT NULL NULL, `schools` text DEFAULT NULL NULL, `companies` text DEFAULT NULL NULL, `music` text DEFAULT NULL NULL, `movies` text DEFAULT NULL NULL, `television` text DEFAULT NULL NULL, `magazines` text DEFAULT NULL NULL, `books` text DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.056000)[0m   [0mCREATE TABLE `sessions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `session_id` varchar(255) DEFAULT '' NOT NULL, `data` text DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.202000)[0m   [0;1mCREATE INDEX `index_sessions_on_session_id` ON `sessions` (`session_id`)[0m
+  [4;35;1mSQL (0.176000)[0m   [0mCREATE INDEX `index_sessions_on_updated_at` ON `sessions` (`updated_at`)[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.057000)[0m   [0mCREATE TABLE `specs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` bigint(11) NOT NULL, `first_name` varchar(255) DEFAULT '' NULL, `last_name` varchar(255) DEFAULT '' NULL, `gender` varchar(255) DEFAULT NULL NULL, `birthdate` date DEFAULT NULL NULL, `occupation` varchar(255) DEFAULT '' NULL, `city` varchar(255) DEFAULT '' NULL, `state` varchar(255) DEFAULT '' NULL, `zip_code` varchar(255) DEFAULT '' NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.047000)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `screen_name` varchar(255) DEFAULT NULL NULL, `email` varchar(255) DEFAULT NULL NULL, `password` varchar(255) DEFAULT NULL NULL, `created_at` datetime DEFAULT NULL NULL, `updated_at` datetime DEFAULT NULL NULL, `authorization_token` varchar(255) DEFAULT NULL NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.064000)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.180000)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.001000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.001000)[0m   [0;1mSELECT version FROM `schema_migrations`[0m
+  [4;35;1mSQL (0.024000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090510031630')[0m
+  [4;36;1mSQL (0.022000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090508232714')[0m
+  [4;35;1mSQL (0.019000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.022000)[0m   [0;1mINSERT INTO `schema_migrations` (version) VALUES ('20090509004615')[0m
+  [4;35;1mSQL (0.018000)[0m   [0mINSERT INTO `schema_migrations` (version) VALUES ('20090509112617')[0m
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-11 15:56:04) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"index", "id"=>nil}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.14886 (6 reqs/sec) | Rendering: 0.14201 (95%) | DB: 0.02039 (13%) | 200 OK [http://localhost/]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 15:56:08) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index"}
+Rendering template within layouts/application
+Rendering community/index
+Rendered community/_user_table (0.00008)
+Completed in 0.12376 (8 reqs/sec) | Rendering: 0.11892 (96%) | DB: 0.00638 (5%) | 200 OK [http://localhost/community]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 15:56:11) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index", "id"=>"R"}
+  [4;36;1mSpec Load (0.004342)[0m   [0;1mSELECT * FROM `specs` WHERE (last_name like 'R%') ORDER BY last_name, first_name[0m
+Rendering template within layouts/application
+Rendering community/index
+Rendered community/_user_table (0.00008)
+Completed in 0.17016 (5 reqs/sec) | Rendering: 0.14428 (84%) | DB: 0.01797 (10%) | 200 OK [http://localhost/community/index/R]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 15:56:12) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index", "id"=>"S"}
+  [4;35;1mSpec Load (0.004764)[0m   [0mSELECT * FROM `specs` WHERE (last_name like 'S%') ORDER BY last_name, first_name[0m
+  [4;36;1mSpec Columns (0.009799)[0m   [0;1mSHOW FIELDS FROM `specs`[0m
+  [4;35;1mUser Columns (0.007814)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.003221)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering community/index
+  [4;35;1mSpec Load (0.004772)[0m   [0mSELECT * FROM `specs` WHERE (`specs`.user_id = 1) LIMIT 1[0m
+Rendered community/_user_table (0.03876)
+Completed in 0.18283 (5 reqs/sec) | Rendering: 0.09629 (52%) | DB: 0.04438 (24%) | 200 OK [http://localhost/community/index/S]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 15:56:14) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index", "id"=>"Z"}
+  [4;36;1mSpec Load (0.003528)[0m   [0;1mSELECT * FROM `specs` WHERE (last_name like 'Z%') ORDER BY last_name, first_name[0m
+Rendering template within layouts/application
+Rendering community/index
+Rendered community/_user_table (0.00006)
+Completed in 0.07321 (13 reqs/sec) | Rendering: 0.05400 (73%) | DB: 0.00824 (11%) | 200 OK [http://localhost/community/index/Z]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 15:56:16) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index", "id"=>"A"}
+  [4;35;1mSpec Load (0.003993)[0m   [0mSELECT * FROM `specs` WHERE (last_name like 'A%') ORDER BY last_name, first_name[0m
+Rendering template within layouts/application
+Rendering community/index
+Rendered community/_user_table (0.00006)
+Completed in 0.07883 (12 reqs/sec) | Rendering: 0.05476 (69%) | DB: 0.00881 (11%) | 200 OK [http://localhost/community/index/A]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 15:56:17) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index", "id"=>"B"}
+  [4;36;1mSpec Load (0.004165)[0m   [0;1mSELECT * FROM `specs` WHERE (last_name like 'B%') ORDER BY last_name, first_name[0m
+Rendering template within layouts/application
+Rendering community/index
+Rendered community/_user_table (0.00006)
+Completed in 0.08642 (11 reqs/sec) | Rendering: 0.06227 (72%) | DB: 0.00906 (10%) | 200 OK [http://localhost/community/index/B]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 16:01:08) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index"}
+Rendering template within layouts/application
+Rendering community/index
+Rendered community/_user_table (0.00005)
+Completed in 0.06380 (15 reqs/sec) | Rendering: 0.06008 (94%) | DB: 0.00634 (9%) | 200 OK [http://localhost/community]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-11 16:01:09) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.06830 (14 reqs/sec) | Rendering: 0.06470 (94%) | DB: 0.00532 (7%) | 200 OK [http://localhost/site/help]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-11 16:01:11) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.04361 (22 reqs/sec) | Rendering: 0.04125 (94%) | DB: 0.00703 (16%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-11 16:01:12) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"index", "id"=>nil}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.05351 (18 reqs/sec) | Rendering: 0.05065 (94%) | DB: 0.00568 (10%) | 200 OK [http://localhost/]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-11 16:01:13) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Rendered user/_screen_name_field_row (0.03011)
+Rendered user/_email_field_row (0.00066)
+Rendered user/_password_field_row (0.00092)
+Rendered user/_password_field_row (0.00077)
+Completed in 0.10408 (9 reqs/sec) | Rendering: 0.10068 (96%) | DB: 0.00503 (4%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-11 16:01:14) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;35;1mUser Columns (0.011677)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Rendered user/_screen_name_field_row (0.01134)
+Rendered user/_password_field_row (0.00098)
+Completed in 0.14310 (6 reqs/sec) | Rendering: 0.08441 (58%) | DB: 0.01716 (11%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-11 16:01:21) [POST]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"user"=>{"screen_name"=>"alsnow", "password"=>"alsnow1", "remember_me"=>"1"}, "commit"=>"Login!", "controller"=>"user", "action"=>"login"}
+  [4;36;1mUser Columns (0.005673)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.003066)[0m   [0mSELECT * FROM `users` WHERE (`users`.`screen_name` = 'alsnow' AND `users`.`password` = 'alsnow1') LIMIT 1[0m
+Cookie set: remember_me=1; path=/; expires=Sat, 11 May 2019 20:01:21 GMT
+  [4;36;1mSQL (0.000700)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.001012)[0m   [0mSELECT `screen_name` FROM `users` WHERE (`users`.screen_name = 'alsnow' AND `users`.id <> 1) [0m
+  [4;36;1mSQL (0.001384)[0m   [0;1mSELECT `email` FROM `users` WHERE (`users`.email = 'a@b.com' AND `users`.id <> 1) [0m
+  [4;35;1mSQL (0.001083)[0m   [0mCOMMIT[0m
+Cookie set: authorization_token=58c4e159427d6a67e2b9d74347b7df5ded710524; path=/; expires=Sat, 11 May 2019 20:01:21 GMT
+Redirected to http://localhost:3000/user
+Completed in 0.06177 (16 reqs/sec) | DB: 0.01858 (30%) | 302 Found [http://localhost/user/login]
+
+
+Processing UserController#index (for 127.0.0.1 at 2009-05-11 16:01:21) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"index"}
+  [4;36;1mUser Columns (0.005368)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.002744)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mSpec Load (0.004116)[0m   [0;1mSELECT * FROM `specs` WHERE (`specs`.user_id = 1) LIMIT 1[0m
+  [4;35;1mFaq Load (0.004018)[0m   [0mSELECT * FROM `faqs` WHERE (`faqs`.user_id = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mSpec Columns (0.006372)[0m   [0;1mSHOW FIELDS FROM `specs`[0m
+Rendered spec/_field_row (0.02316)
+Rendered spec/_field_row (0.00019)
+Rendered spec/_field_row (0.00013)
+Rendered spec/_field_row (0.00015)
+Rendered spec/_field_row (0.00132)
+Rendered spec/_field_row (0.00017)
+Rendered spec/_field_row (0.00013)
+Rendered spec/_field_row (0.00015)
+  [4;35;1mFaq Columns (0.006961)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+Rendered faq/_sidebar_box (0.01034)
+Rendered faq/_sidebar_box (0.00488)
+Rendered faq/_sidebar_box (0.00062)
+Rendered faq/_sidebar_box (0.00057)
+Rendered faq/_sidebar_box (0.00056)
+Rendered faq/_sidebar_box (0.00056)
+Rendered faq/_sidebar_box (0.00057)
+Rendered faq/_sidebar_box (0.00055)
+Completed in 0.20182 (4 reqs/sec) | Rendering: 0.11687 (57%) | DB: 0.07832 (38%) | 200 OK [http://localhost/user]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 16:02:06) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index"}
+Rendering template within layouts/application
+Rendering community/index
+Rendered community/_result_summary (0.00008)
+Rendered community/_user_table (0.00006)
+Completed in 0.05371 (18 reqs/sec) | Rendering: 0.05129 (95%) | DB: 0.02715 (50%) | 200 OK [http://localhost/community]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 16:02:09) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index", "id"=>"S"}
+  [4;36;1mSpec Load (0.005061)[0m   [0;1mSELECT * FROM `specs` WHERE (last_name like 'S%') ORDER BY last_name, first_name[0m
+  [4;35;1mSpec Columns (0.006157)[0m   [0mSHOW FIELDS FROM `specs`[0m
+  [4;36;1mUser Columns (0.005241)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.002428)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering community/index
+Rendered community/_result_summary (0.00005)
+  [4;36;1mSpec Load (0.003555)[0m   [0;1mSELECT * FROM `specs` WHERE (`specs`.user_id = 1) LIMIT 1[0m
+Rendered community/_user_table (0.02566)
+Completed in 0.16586 (6 reqs/sec) | Rendering: 0.09334 (56%) | DB: 0.06642 (40%) | 200 OK [http://localhost/community/index/S]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 16:02:23) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index"}
+Rendering template within layouts/application
+Rendering community/index
+Rendered community/_result_summary (0.00007)
+Rendered community/_user_table (0.00006)
+Completed in 0.06077 (16 reqs/sec) | Rendering: 0.05474 (90%) | DB: 0.00432 (7%) | 200 OK [http://localhost/community]
+
+
+Processing UserController#index (for 127.0.0.1 at 2009-05-11 16:02:28) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"index"}
+  [4;35;1mUser Columns (0.007736)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.003614)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mSpec Load (0.003441)[0m   [0mSELECT * FROM `specs` WHERE (`specs`.user_id = 1) LIMIT 1[0m
+  [4;36;1mFaq Load (0.003761)[0m   [0;1mSELECT * FROM `faqs` WHERE (`faqs`.user_id = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mSpec Columns (0.015542)[0m   [0mSHOW FIELDS FROM `specs`[0m
+Rendered spec/_field_row (0.01807)
+Rendered spec/_field_row (0.00022)
+Rendered spec/_field_row (0.00016)
+Rendered spec/_field_row (0.00397)
+Rendered spec/_field_row (0.00101)
+Rendered spec/_field_row (0.00016)
+Rendered spec/_field_row (0.00013)
+Rendered spec/_field_row (0.00013)
+  [4;36;1mFaq Columns (0.006419)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+Rendered faq/_sidebar_box (0.00928)
+Rendered faq/_sidebar_box (0.00077)
+Rendered faq/_sidebar_box (0.00072)
+Rendered faq/_sidebar_box (0.00262)
+Rendered faq/_sidebar_box (0.00082)
+Rendered faq/_sidebar_box (0.00062)
+Rendered faq/_sidebar_box (0.00098)
+Rendered faq/_sidebar_box (0.00075)
+Completed in 0.19098 (5 reqs/sec) | Rendering: 0.08200 (42%) | DB: 0.04586 (24%) | 200 OK [http://localhost/user]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-11 16:02:52) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"index", "id"=>nil}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.04699 (21 reqs/sec) | Rendering: 0.04455 (94%) | DB: 0.00579 (12%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-11 16:02:53) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.02837 (35 reqs/sec) | Rendering: 0.02659 (93%) | DB: 0.00423 (14%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-11 16:02:53) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.03421 (29 reqs/sec) | Rendering: 0.03158 (92%) | DB: 0.00495 (14%) | 200 OK [http://localhost/site/help]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 16:02:54) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index"}
+Rendering template within layouts/application
+Rendering community/index
+Rendered community/_result_summary (0.00008)
+Rendered community/_user_table (0.00009)
+Completed in 0.05667 (17 reqs/sec) | Rendering: 0.05379 (94%) | DB: 0.00554 (9%) | 200 OK [http://localhost/community]
+
+
+Processing UserController#index (for 127.0.0.1 at 2009-05-11 16:02:55) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"index"}
+  [4;35;1mUser Columns (0.005730)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.002588)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mSpec Load (0.003544)[0m   [0mSELECT * FROM `specs` WHERE (`specs`.user_id = 1) LIMIT 1[0m
+  [4;36;1mFaq Load (0.003798)[0m   [0;1mSELECT * FROM `faqs` WHERE (`faqs`.user_id = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mSpec Columns (0.006003)[0m   [0mSHOW FIELDS FROM `specs`[0m
+Rendered spec/_field_row (0.00827)
+Rendered spec/_field_row (0.00022)
+Rendered spec/_field_row (0.00013)
+Rendered spec/_field_row (0.00013)
+Rendered spec/_field_row (0.00332)
+Rendered spec/_field_row (0.00022)
+Rendered spec/_field_row (0.00013)
+Rendered spec/_field_row (0.00013)
+  [4;36;1mFaq Columns (0.006700)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+Rendered faq/_sidebar_box (0.00938)
+Rendered faq/_sidebar_box (0.00067)
+Rendered faq/_sidebar_box (0.00065)
+Rendered faq/_sidebar_box (0.00068)
+Rendered faq/_sidebar_box (0.00059)
+Rendered faq/_sidebar_box (0.00067)
+Rendered faq/_sidebar_box (0.00105)
+Rendered faq/_sidebar_box (0.00602)
+Completed in 0.15201 (6 reqs/sec) | Rendering: 0.07733 (50%) | DB: 0.03241 (21%) | 200 OK [http://localhost/user]
+
+
+Processing UserController#logout (for 127.0.0.1 at 2009-05-11 16:02:57) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"logout"}
+Cookie set: authorization_token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT
+Redirected to http://localhost:3000/
+Completed in 0.02766 (36 reqs/sec) | DB: 0.00676 (24%) | 302 Found [http://localhost/user/logout]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-11 16:02:57) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"index", "id"=>nil}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.03470 (28 reqs/sec) | Rendering: 0.03299 (95%) | DB: 0.03504 (100%) | 200 OK [http://localhost/]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-11 16:02:58) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;35;1mUser Columns (0.005616)[0m   [0mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Rendered user/_screen_name_field_row (0.00476)
+Rendered user/_password_field_row (0.00056)
+Completed in 0.09119 (10 reqs/sec) | Rendering: 0.06611 (72%) | DB: 0.05107 (56%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-11 16:03:06) [POST]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"user"=>{"screen_name"=>"alsnow", "password"=>"alsnow1", "remember_me"=>"1"}, "commit"=>"Login!", "controller"=>"user", "action"=>"login"}
+  [4;36;1mUser Columns (0.005518)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.002932)[0m   [0mSELECT * FROM `users` WHERE (`users`.`screen_name` = 'alsnow' AND `users`.`password` = 'alsnow1') LIMIT 1[0m
+Cookie set: remember_me=1; path=/; expires=Sat, 11 May 2019 20:03:06 GMT
+  [4;36;1mSQL (0.000646)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.001028)[0m   [0mSELECT `screen_name` FROM `users` WHERE (`users`.screen_name = 'alsnow' AND `users`.id <> 1) [0m
+  [4;36;1mSQL (0.000781)[0m   [0;1mSELECT `email` FROM `users` WHERE (`users`.email = 'a@b.com' AND `users`.id <> 1) [0m
+  [4;35;1mSQL (0.000556)[0m   [0mCOMMIT[0m
+Cookie set: authorization_token=58c4e159427d6a67e2b9d74347b7df5ded710524; path=/; expires=Sat, 11 May 2019 20:03:06 GMT
+Redirected to http://localhost:3000/user
+Completed in 0.05009 (19 reqs/sec) | DB: 0.06858 (136%) | 302 Found [http://localhost/user/login]
+
+
+Processing UserController#index (for 127.0.0.1 at 2009-05-11 16:03:06) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"index"}
+  [4;36;1mUser Columns (0.005075)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.002165)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mSpec Load (0.002990)[0m   [0;1mSELECT * FROM `specs` WHERE (`specs`.user_id = 1) LIMIT 1[0m
+  [4;35;1mFaq Load (0.003478)[0m   [0mSELECT * FROM `faqs` WHERE (`faqs`.user_id = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;36;1mSpec Columns (0.005757)[0m   [0;1mSHOW FIELDS FROM `specs`[0m
+Rendered spec/_field_row (0.00986)
+Rendered spec/_field_row (0.00025)
+Rendered spec/_field_row (0.00012)
+Rendered spec/_field_row (0.00011)
+Rendered spec/_field_row (0.00086)
+Rendered spec/_field_row (0.00014)
+Rendered spec/_field_row (0.00011)
+Rendered spec/_field_row (0.00165)
+  [4;35;1mFaq Columns (0.005837)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+Rendered faq/_sidebar_box (0.00857)
+Rendered faq/_sidebar_box (0.00068)
+Rendered faq/_sidebar_box (0.00049)
+Rendered faq/_sidebar_box (0.00047)
+Rendered faq/_sidebar_box (0.00045)
+Rendered faq/_sidebar_box (0.00047)
+Rendered faq/_sidebar_box (0.00057)
+Rendered faq/_sidebar_box (0.00063)
+Completed in 0.18001 (5 reqs/sec) | Rendering: 0.07035 (39%) | DB: 0.05458 (30%) | 200 OK [http://localhost/user]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 16:03:54) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index"}
+Rendering template within layouts/application
+Rendering community/index
+Rendered community/_result_summary (0.00006)
+Rendered community/_user_table (0.00005)
+Completed in 0.05106 (19 reqs/sec) | Rendering: 0.04902 (96%) | DB: 0.04423 (86%) | 200 OK [http://localhost/community]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 16:03:58) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index", "id"=>"S"}
+  [4;36;1mSpec Load (0.004978)[0m   [0;1mSELECT * FROM `specs` WHERE (last_name like 'S%') ORDER BY last_name, first_name[0m
+  [4;35;1mSpec Columns (0.008101)[0m   [0mSHOW FIELDS FROM `specs`[0m
+  [4;36;1mUser Columns (0.006677)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.002413)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+Rendering template within layouts/application
+Rendering community/index
+Rendered community/_result_summary (0.00006)
+  [4;36;1mSpec Load (0.003179)[0m   [0;1mSELECT * FROM `specs` WHERE (`specs`.user_id = 1) LIMIT 1[0m
+Rendered community/_user_table (0.01894)
+Completed in 0.14094 (7 reqs/sec) | Rendering: 0.05640 (40%) | DB: 0.06328 (44%) | 200 OK [http://localhost/community/index/S]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-11 16:53:27) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"index", "id"=>nil}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.02804 (35 reqs/sec) | Rendering: 0.02635 (93%) | DB: 0.00473 (16%) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-11 16:53:28) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.02648 (37 reqs/sec) | Rendering: 0.02477 (93%) | DB: 0.00429 (16%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-11 16:53:29) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.03790 (26 reqs/sec) | Rendering: 0.03546 (93%) | DB: 0.00463 (12%) | 200 OK [http://localhost/site/help]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 16:53:29) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index"}
+Rendering template within layouts/application
+Rendering community/index
+Rendered community/_result_summary (0.00007)
+Rendered community/_user_table (0.00005)
+Completed in 0.05446 (18 reqs/sec) | Rendering: 0.05198 (95%) | DB: 0.00502 (9%) | 200 OK [http://localhost/community]
+
+
+Processing UserController#index (for 127.0.0.1 at 2009-05-11 16:53:32) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"index"}
+  [4;35;1mUser Columns (0.005730)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.002117)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mSpec Load (0.003397)[0m   [0mSELECT * FROM `specs` WHERE (`specs`.user_id = 1) LIMIT 1[0m
+  [4;36;1mFaq Load (0.003549)[0m   [0;1mSELECT * FROM `faqs` WHERE (`faqs`.user_id = 1) LIMIT 1[0m
+Rendering template within layouts/application
+Rendering user/index
+  [4;35;1mSpec Columns (0.005751)[0m   [0mSHOW FIELDS FROM `specs`[0m
+Rendered spec/_field_row (0.00776)
+Rendered spec/_field_row (0.00018)
+Rendered spec/_field_row (0.00012)
+Rendered spec/_field_row (0.00011)
+Rendered spec/_field_row (0.00085)
+Rendered spec/_field_row (0.00014)
+Rendered spec/_field_row (0.00012)
+Rendered spec/_field_row (0.00012)
+  [4;36;1mFaq Columns (0.006398)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+Rendered faq/_sidebar_box (0.00887)
+Rendered faq/_sidebar_box (0.00063)
+Rendered faq/_sidebar_box (0.00047)
+Rendered faq/_sidebar_box (0.00044)
+Rendered faq/_sidebar_box (0.00043)
+Rendered faq/_sidebar_box (0.00047)
+Rendered faq/_sidebar_box (0.00043)
+Rendered faq/_sidebar_box (0.00048)
+Completed in 0.12805 (7 reqs/sec) | Rendering: 0.05850 (45%) | DB: 0.03191 (24%) | 200 OK [http://localhost/user]
+
+
+Processing UserController#logout (for 127.0.0.1 at 2009-05-11 16:53:37) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"logout"}
+Cookie set: authorization_token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT
+Redirected to http://localhost:3000/
+Completed in 0.02148 (46 reqs/sec) | DB: 0.00483 (22%) | 302 Found [http://localhost/user/logout]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-11 16:53:37) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"index", "id"=>nil}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.03621 (27 reqs/sec) | Rendering: 0.02786 (76%) | DB: 0.02285 (63%) | 200 OK [http://localhost/]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-11 16:53:39) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Rendered user/_screen_name_field_row (0.01796)
+Rendered user/_email_field_row (0.00032)
+Rendered user/_password_field_row (0.00033)
+Rendered user/_password_field_row (0.00029)
+Completed in 0.05098 (19 reqs/sec) | Rendering: 0.04849 (95%) | DB: 0.03001 (58%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-11 16:53:40) [POST]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"user"=>{"screen_name"=>"", "email"=>"", "password"=>"", "password_confirmation"=>""}, "commit"=>"Register!", "controller"=>"user", "action"=>"register"}
+  [4;35;1mUser Columns (0.006304)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.001055)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.001281)[0m   [0mSELECT `screen_name` FROM `users` WHERE (`users`.screen_name = '') [0m
+  [4;36;1mSQL (0.001036)[0m   [0;1mSELECT `email` FROM `users` WHERE (`users`.email = '') [0m
+  [4;35;1mSQL (0.000506)[0m   [0mCOMMIT[0m
+Rendering template within layouts/application
+Rendering user/register
+Rendered user/_screen_name_field_row (0.00315)
+Rendered user/_email_field_row (0.00055)
+Rendered user/_password_field_row (0.00134)
+Rendered user/_password_field_row (0.00045)
+Completed in 0.08913 (11 reqs/sec) | Rendering: 0.03895 (43%) | DB: 0.04526 (50%) | 200 OK [http://localhost/user/register]
+
+
+Processing UserController#login (for 127.0.0.1 at 2009-05-11 16:53:42) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"login"}
+  [4;36;1mUser Columns (0.007320)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Rendering template within layouts/application
+Rendering user/login
+Rendered user/_screen_name_field_row (0.00677)
+Rendered user/_password_field_row (0.00089)
+Completed in 0.07952 (12 reqs/sec) | Rendering: 0.04899 (61%) | DB: 0.01174 (14%) | 200 OK [http://localhost/user/login]
+
+
+Processing UserController#register (for 127.0.0.1 at 2009-05-11 16:53:45) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"user", "action"=>"register"}
+Rendering template within layouts/application
+Rendering user/register
+Rendered user/_screen_name_field_row (0.02047)
+Rendered user/_email_field_row (0.00033)
+Rendered user/_password_field_row (0.00033)
+Rendered user/_password_field_row (0.00168)
+Completed in 0.07047 (14 reqs/sec) | Rendering: 0.06807 (96%) | DB: 0.00456 (6%) | 200 OK [http://localhost/user/register]
+
+
+Processing SiteController#help (for 127.0.0.1 at 2009-05-11 16:53:47) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"help"}
+Rendering template within layouts/application
+Rendering site/help
+Completed in 0.02706 (36 reqs/sec) | Rendering: 0.02272 (83%) | DB: 0.00387 (14%) | 200 OK [http://localhost/site/help]
+
+
+Processing CommunityController#index (for 127.0.0.1 at 2009-05-11 16:53:48) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"community", "action"=>"index"}
+Rendering template within layouts/application
+Rendering community/index
+Rendered community/_result_summary (0.00008)
+Rendered community/_user_table (0.00006)
+Completed in 0.05054 (19 reqs/sec) | Rendering: 0.04863 (96%) | DB: 0.00456 (9%) | 200 OK [http://localhost/community]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2009-05-11 16:53:48) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"about"}
+Rendering template within layouts/application
+Rendering site/about
+Completed in 0.03528 (28 reqs/sec) | Rendering: 0.03378 (95%) | DB: 0.00447 (12%) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-05-11 16:53:49) [GET]
+  Session ID: 16d5acfedf47b082fe02962b7a55bde2
+  Parameters: {"controller"=>"site", "action"=>"index", "id"=>nil}
+Rendering template within layouts/application
+Rendering site/index
+Completed in 0.03555 (28 reqs/sec) | Rendering: 0.03351 (94%) | DB: 0.00448 (12%) | 200 OK [http://localhost/]
