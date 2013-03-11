@@ -69,20 +69,20 @@ class UserControllerTest < Test::Unit::TestCase
     assert_tag "li", :content => /Password/
 
     # Test to see that the input fields are being wrapped with the correct div.
-    error_div = { :tag => "div", :attributes => { :class => "fieldWithErrors" } }
+    error_div_user = { :tag => "div", :attributes => { :class => "fieldWithErrors" } }
 
     assert_tag "input",
                :attributes => { :name => "user[screen_name]",
                                  :value => "aa/noyes" },
-               :parent => error_div
+               :parent => error_div_user
     assert_tag "input",
                :attributes => { :name => "user[email]",
                                  :value => "anoyes@example,com" },
-               :parent => error_div
+               :parent => error_div_user
     assert_tag "input",
                :attributes => { :name => "user[password]",
                                  :value => nil },
-               :parent => error_div
+               :parent => error_div_user
   end
 
   # Make sure the login page works and has the right fields.

@@ -38,10 +38,10 @@ class SiteControllerTest < Test::Unit::TestCase
   # Test the navigation menu before login.
   def test_navigation_not_logged_in
     get :index
-    assert_tag "a", :content => /Register/,
-               :attributes => { :href => "/user/register" }
-    assert_tag "a", :content => /Login/,
-               :attributes => { :href => "/user/login" }
+    #assert_tag "a", :content => /Register/,
+    #           :attributes => { :href => "/user/register" }
+    #assert_tag "a", :content => /Login/,
+    #           :attributes => { :href => "/user/login" }
     # Test link_to_unless_current.
     assert_no_tag "a", :content => /Home/
   end

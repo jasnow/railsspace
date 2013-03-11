@@ -10065,3 +10065,716 @@ Processing SiteController#index (for 127.0.0.1 at 2009-05-11 16:53:49) [GET]
 Rendering template within layouts/application
 Rendering site/index
 Completed in 0.03555 (28 reqs/sec) | Rendering: 0.03351 (94%) | DB: 0.00448 (12%) | 200 OK [http://localhost/]
+DEPRECATION WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library will be REMOVED FROM RAILS 2.2. Please switch to the offical mysql gem: `gem install mysql`  See http://www.rubyonrails.org/deprecation for details. (called from mysql_connection at /Users/whitemac/.rvm/gems/ruby-1.8.7-p371@railsspace/gems/activerecord-2.1.2/lib/active_record/connection_adapters/mysql_adapter.rb:81)
+DEPRECATION WARNING: You're using the Ruby-based MySQL library that ships with Rails. This library will be REMOVED FROM RAILS 2.2. Please switch to the offical mysql gem: `gem install mysql`  See http://www.rubyonrails.org/deprecation for details. (called from mysql_connection at /Users/whitemac/.rvm/gems/ruby-1.8.7-p371@railsspace/gems/activerecord-2.1.2/lib/active_record/connection_adapters/mysql_adapter.rb:81)
+  [4;36;1mSQL (0.010357)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000303)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.002696)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.002339)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000297)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000184)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20090508232714)
+  [4;36;1mSQL (0.002377)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "screen_name" varchar(255), "email" varchar(255), "password" varchar(255)) [0m
+  [4;35;1mSQL (0.002144)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090508232714')[0m
+Migrating to AddUserTimestamps (20090508233247)
+  [4;36;1mSQL (0.002201)[0m   [0;1mALTER TABLE "users" ADD "created_at" datetime[0m
+  [4;35;1mSQL (0.005577)[0m   [0mVACUUM[0m
+  [4;36;1mSQL (0.002542)[0m   [0;1mALTER TABLE "users" ADD "updated_at" datetime[0m
+  [4;35;1mSQL (0.004571)[0m   [0mVACUUM[0m
+  [4;36;1mSQL (0.002157)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090508233247')[0m
+Migrating to CreateSessions (20090509004615)
+  [4;35;1mSQL (0.001631)[0m   [0mCREATE TABLE "sessions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "session_id" varchar(255) NOT NULL, "data" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.002077)[0m   [0;1mCREATE INDEX "index_sessions_on_session_id" ON "sessions" ("session_id")[0m
+  [4;35;1mSQL (0.003035)[0m   [0mCREATE INDEX "index_sessions_on_updated_at" ON "sessions" ("updated_at")[0m
+  [4;36;1mSQL (0.002345)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090509004615')[0m
+Migrating to AddAuthorizationToken (20090509112617)
+  [4;35;1mSQL (0.002281)[0m   [0mALTER TABLE "users" ADD "authorization_token" varchar(255)[0m
+  [4;36;1mSQL (0.005286)[0m   [0;1mVACUUM[0m
+  [4;35;1mSQL (0.003019)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090509112617')[0m
+Migrating to CreateFaqs (20090510031630)
+  [4;36;1mSQL (0.002552)[0m   [0;1mCREATE TABLE "faqs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "bio" text, "skillz" text, "schools" text, "companies" text, "music" text, "movies" text, "television" text, "magazines" text, "books" text) [0m
+  [4;35;1mSQL (0.002233)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090510031630')[0m
+  [4;36;1mSQL (0.000311)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000189)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000176)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000043)[0m   [0mPRAGMA index_list("faqs")[0m
+  [4;36;1mSQL (0.000105)[0m   [0;1mPRAGMA index_list("sessions")[0m
+  [4;35;1mSQL (0.000071)[0m   [0mPRAGMA index_info('index_sessions_on_updated_at')[0m
+  [4;36;1mSQL (0.000070)[0m   [0;1mPRAGMA index_info('index_sessions_on_session_id')[0m
+  [4;35;1mSQL (0.000041)[0m   [0mPRAGMA index_list("users")[0m
+  [4;36;1mSQL (0.000885)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000201)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000151)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000264)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.024046)[0m   [0;1mCREATE TABLE "faqs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "bio" text, "skillz" text, "schools" text, "companies" text, "music" text, "movies" text, "television" text, "magazines" text, "books" text) [0m
+  [4;35;1mSQL (0.000330)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.015754)[0m   [0;1mCREATE TABLE "sessions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "session_id" varchar(255) NOT NULL, "data" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.013213)[0m   [0mCREATE INDEX "index_sessions_on_updated_at" ON "sessions" ("updated_at")[0m
+  [4;36;1mSQL (0.024816)[0m   [0;1mCREATE INDEX "index_sessions_on_session_id" ON "sessions" ("session_id")[0m
+  [4;35;1mSQL (0.000264)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.023681)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "screen_name" varchar(255), "email" varchar(255), "password" varchar(255), "created_at" datetime, "updated_at" datetime, "authorization_token" varchar(255)) [0m
+  [4;35;1mSQL (0.000271)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.025607)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.011998)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000327)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000143)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.030352)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090510031630')[0m
+  [4;35;1mSQL (0.036370)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090508232714')[0m
+  [4;36;1mSQL (0.031147)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090508233247')[0m
+  [4;35;1mSQL (0.030950)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090509004615')[0m
+  [4;36;1mSQL (0.013335)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090509112617')[0m
+  [4;36;1mSQL (0.000865)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000178)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000131)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000239)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002199)[0m   [0;1mCREATE TABLE "faqs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "bio" text, "skillz" text, "schools" text, "companies" text, "music" text, "movies" text, "television" text, "magazines" text, "books" text) [0m
+  [4;35;1mSQL (0.000248)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002028)[0m   [0;1mCREATE TABLE "sessions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "session_id" varchar(255) NOT NULL, "data" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.002463)[0m   [0mCREATE INDEX "index_sessions_on_updated_at" ON "sessions" ("updated_at")[0m
+  [4;36;1mSQL (0.002719)[0m   [0;1mCREATE INDEX "index_sessions_on_session_id" ON "sessions" ("session_id")[0m
+  [4;35;1mSQL (0.000254)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002317)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "screen_name" varchar(255), "email" varchar(255), "password" varchar(255), "created_at" datetime, "updated_at" datetime, "authorization_token" varchar(255)) [0m
+  [4;35;1mSQL (0.000303)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001979)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.003351)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000293)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000108)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.002033)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090510031630')[0m
+  [4;35;1mSQL (0.002613)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090508232714')[0m
+  [4;36;1mSQL (0.002696)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090508233247')[0m
+  [4;35;1mSQL (0.001900)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090509004615')[0m
+  [4;36;1mSQL (0.002202)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090509112617')[0m
+  [4;36;1mSQL (0.000877)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000177)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000109)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000248)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002347)[0m   [0;1mCREATE TABLE "faqs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "bio" text, "skillz" text, "schools" text, "companies" text, "music" text, "movies" text, "television" text, "magazines" text, "books" text) [0m
+  [4;35;1mSQL (0.000486)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002584)[0m   [0;1mCREATE TABLE "sessions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "session_id" varchar(255) NOT NULL, "data" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.002135)[0m   [0mCREATE INDEX "index_sessions_on_updated_at" ON "sessions" ("updated_at")[0m
+  [4;36;1mSQL (0.002205)[0m   [0;1mCREATE INDEX "index_sessions_on_session_id" ON "sessions" ("session_id")[0m
+  [4;35;1mSQL (0.000397)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002132)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "screen_name" varchar(255), "email" varchar(255), "password" varchar(255), "created_at" datetime, "updated_at" datetime, "authorization_token" varchar(255)) [0m
+  [4;35;1mSQL (0.000241)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002205)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.002482)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000471)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000163)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.002380)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090510031630')[0m
+  [4;35;1mSQL (0.002370)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090508232714')[0m
+  [4;36;1mSQL (0.002390)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090508233247')[0m
+  [4;35;1mSQL (0.002556)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090509004615')[0m
+  [4;36;1mSQL (0.001819)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090509112617')[0m
+  [4;36;1mSQL (0.000926)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000186)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000136)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000244)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002537)[0m   [0;1mCREATE TABLE "faqs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "bio" text, "skillz" text, "schools" text, "companies" text, "music" text, "movies" text, "television" text, "magazines" text, "books" text) [0m
+  [4;35;1mSQL (0.000269)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001615)[0m   [0;1mCREATE TABLE "sessions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "session_id" varchar(255) NOT NULL, "data" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.001948)[0m   [0mCREATE INDEX "index_sessions_on_updated_at" ON "sessions" ("updated_at")[0m
+  [4;36;1mSQL (0.002168)[0m   [0;1mCREATE INDEX "index_sessions_on_session_id" ON "sessions" ("session_id")[0m
+  [4;35;1mSQL (0.000314)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002683)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "screen_name" varchar(255), "email" varchar(255), "password" varchar(255), "created_at" datetime, "updated_at" datetime, "authorization_token" varchar(255)) [0m
+  [4;35;1mSQL (0.000289)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.003076)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.003384)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000300)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000137)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.003004)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090510031630')[0m
+  [4;35;1mSQL (0.003308)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090508232714')[0m
+  [4;36;1mSQL (0.002256)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090508233247')[0m
+  [4;35;1mSQL (0.002313)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090509004615')[0m
+  [4;36;1mSQL (0.002346)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090509112617')[0m
+  [4;36;1mSQL (0.000857)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000176)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000132)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000242)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002059)[0m   [0;1mCREATE TABLE "faqs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "bio" text, "skillz" text, "schools" text, "companies" text, "music" text, "movies" text, "television" text, "magazines" text, "books" text) [0m
+  [4;35;1mSQL (0.000243)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002202)[0m   [0;1mCREATE TABLE "sessions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "session_id" varchar(255) NOT NULL, "data" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.002623)[0m   [0mCREATE INDEX "index_sessions_on_updated_at" ON "sessions" ("updated_at")[0m
+  [4;36;1mSQL (0.002031)[0m   [0;1mCREATE INDEX "index_sessions_on_session_id" ON "sessions" ("session_id")[0m
+  [4;35;1mSQL (0.000248)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002279)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "screen_name" varchar(255), "email" varchar(255), "password" varchar(255), "created_at" datetime, "updated_at" datetime, "authorization_token" varchar(255)) [0m
+  [4;35;1mSQL (0.000312)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002332)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.003019)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000292)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000095)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.002616)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090510031630')[0m
+  [4;35;1mSQL (0.002560)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090508232714')[0m
+  [4;36;1mSQL (0.002297)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090508233247')[0m
+  [4;35;1mSQL (0.002598)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090509004615')[0m
+  [4;36;1mSQL (0.002371)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090509112617')[0m
+  [4;36;1mSQL (0.000877)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000181)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000139)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000246)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002102)[0m   [0;1mCREATE TABLE "faqs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "bio" text, "skillz" text, "schools" text, "companies" text, "music" text, "movies" text, "television" text, "magazines" text, "books" text) [0m
+  [4;35;1mSQL (0.000263)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002273)[0m   [0;1mCREATE TABLE "sessions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "session_id" varchar(255) NOT NULL, "data" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.002153)[0m   [0mCREATE INDEX "index_sessions_on_updated_at" ON "sessions" ("updated_at")[0m
+  [4;36;1mSQL (0.001763)[0m   [0;1mCREATE INDEX "index_sessions_on_session_id" ON "sessions" ("session_id")[0m
+  [4;35;1mSQL (0.000222)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001977)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "screen_name" varchar(255), "email" varchar(255), "password" varchar(255), "created_at" datetime, "updated_at" datetime, "authorization_token" varchar(255)) [0m
+  [4;35;1mSQL (0.000233)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002039)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.002363)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000482)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000235)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.002155)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090510031630')[0m
+  [4;35;1mSQL (0.002033)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090508232714')[0m
+  [4;36;1mSQL (0.002147)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090508233247')[0m
+  [4;35;1mSQL (0.002395)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090509004615')[0m
+  [4;36;1mSQL (0.002684)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090509112617')[0m
+  [4;36;1mSQL (0.001265)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000452)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000135)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000239)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002611)[0m   [0;1mCREATE TABLE "faqs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "bio" text, "skillz" text, "schools" text, "companies" text, "music" text, "movies" text, "television" text, "magazines" text, "books" text) [0m
+  [4;35;1mSQL (0.000232)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001990)[0m   [0;1mCREATE TABLE "sessions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "session_id" varchar(255) NOT NULL, "data" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.002442)[0m   [0mCREATE INDEX "index_sessions_on_updated_at" ON "sessions" ("updated_at")[0m
+  [4;36;1mSQL (0.001910)[0m   [0;1mCREATE INDEX "index_sessions_on_session_id" ON "sessions" ("session_id")[0m
+  [4;35;1mSQL (0.000268)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002236)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "screen_name" varchar(255), "email" varchar(255), "password" varchar(255), "created_at" datetime, "updated_at" datetime, "authorization_token" varchar(255)) [0m
+  [4;35;1mSQL (0.000437)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002393)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.001983)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000252)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000100)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.002131)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090510031630')[0m
+  [4;35;1mSQL (0.002225)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090508232714')[0m
+  [4;36;1mSQL (0.002288)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090508233247')[0m
+  [4;35;1mSQL (0.001634)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090509004615')[0m
+  [4;36;1mSQL (0.001914)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090509112617')[0m
+  [4;36;1mSQL (0.001455)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000525)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000214)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000299)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002153)[0m   [0;1mCREATE TABLE "faqs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "bio" text, "skillz" text, "schools" text, "companies" text, "music" text, "movies" text, "television" text, "magazines" text, "books" text) [0m
+  [4;35;1mSQL (0.000222)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001977)[0m   [0;1mCREATE TABLE "sessions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "session_id" varchar(255) NOT NULL, "data" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.002282)[0m   [0mCREATE INDEX "index_sessions_on_updated_at" ON "sessions" ("updated_at")[0m
+  [4;36;1mSQL (0.002085)[0m   [0;1mCREATE INDEX "index_sessions_on_session_id" ON "sessions" ("session_id")[0m
+  [4;35;1mSQL (0.000272)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002085)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "screen_name" varchar(255), "email" varchar(255), "password" varchar(255), "created_at" datetime, "updated_at" datetime, "authorization_token" varchar(255)) [0m
+  [4;35;1mSQL (0.000276)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002100)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.002391)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000349)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000155)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.001992)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090510031630')[0m
+  [4;35;1mSQL (0.002187)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090508232714')[0m
+  [4;36;1mSQL (0.001969)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090508233247')[0m
+  [4;35;1mSQL (0.001891)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090509004615')[0m
+  [4;36;1mSQL (0.001982)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090509112617')[0m
+  [4;36;1mSQL (0.000904)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000881)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000270)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20090508232714)
+Migrating to CreateSpecs (20090508232801)
+  [4;36;1mSQL (0.000106)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000214)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002863)[0m   [0;1mCREATE TABLE "specs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer(11) NOT NULL, "first_name" varchar(255) DEFAULT '', "last_name" varchar(255) DEFAULT '', "gender" varchar(255), "birthdate" date, "occupation" varchar(255) DEFAULT '', "city" varchar(255) DEFAULT '', "state" varchar(255) DEFAULT '', "zip_code" varchar(255) DEFAULT '') [0m
+  [4;35;1mSQL (0.002420)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090508232801')[0m
+Migrating to AddUserTimestamps (20090508233247)
+Migrating to CreateSessions (20090509004615)
+Migrating to AddAuthorizationToken (20090509112617)
+Migrating to CreateFaqs (20090510031630)
+  [4;36;1mSQL (0.000404)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000217)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000228)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000044)[0m   [0mPRAGMA index_list("faqs")[0m
+  [4;36;1mSQL (0.000105)[0m   [0;1mPRAGMA index_list("sessions")[0m
+  [4;35;1mSQL (0.000071)[0m   [0mPRAGMA index_info('index_sessions_on_updated_at')[0m
+  [4;36;1mSQL (0.000067)[0m   [0;1mPRAGMA index_info('index_sessions_on_session_id')[0m
+  [4;35;1mSQL (0.000042)[0m   [0mPRAGMA index_list("specs")[0m
+  [4;36;1mSQL (0.000040)[0m   [0;1mPRAGMA index_list("users")[0m
+  [4;36;1mSQL (0.000918)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000192)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000131)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000242)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002619)[0m   [0;1mCREATE TABLE "faqs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "bio" text, "skillz" text, "schools" text, "companies" text, "music" text, "movies" text, "television" text, "magazines" text, "books" text) [0m
+  [4;35;1mSQL (0.000258)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001954)[0m   [0;1mCREATE TABLE "sessions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "session_id" varchar(255) NOT NULL, "data" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.002502)[0m   [0mCREATE INDEX "index_sessions_on_updated_at" ON "sessions" ("updated_at")[0m
+  [4;36;1mSQL (0.002028)[0m   [0;1mCREATE INDEX "index_sessions_on_session_id" ON "sessions" ("session_id")[0m
+  [4;35;1mSQL (0.000262)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001909)[0m   [0;1mCREATE TABLE "specs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer(11) NOT NULL, "first_name" varchar(255) DEFAULT '', "last_name" varchar(255) DEFAULT '', "gender" varchar(255), "birthdate" date, "occupation" varchar(255) DEFAULT '', "city" varchar(255) DEFAULT '', "state" varchar(255) DEFAULT '', "zip_code" varchar(255) DEFAULT '') [0m
+  [4;35;1mSQL (0.000237)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002086)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "screen_name" varchar(255), "email" varchar(255), "password" varchar(255), "created_at" datetime, "updated_at" datetime, "authorization_token" varchar(255)) [0m
+  [4;35;1mSQL (0.000339)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002015)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.001776)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000293)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000102)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.002040)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090510031630')[0m
+  [4;35;1mSQL (0.002198)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090508232714')[0m
+  [4;36;1mSQL (0.002731)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090508232801')[0m
+  [4;35;1mSQL (0.001625)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.001846)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090509004615')[0m
+  [4;35;1mSQL (0.001939)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090509112617')[0m
+  [4;36;1mSQL (0.001020)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000192)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000132)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000252)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002002)[0m   [0;1mCREATE TABLE "faqs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "bio" text, "skillz" text, "schools" text, "companies" text, "music" text, "movies" text, "television" text, "magazines" text, "books" text) [0m
+  [4;35;1mSQL (0.000272)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002074)[0m   [0;1mCREATE TABLE "sessions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "session_id" varchar(255) NOT NULL, "data" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.002549)[0m   [0mCREATE INDEX "index_sessions_on_updated_at" ON "sessions" ("updated_at")[0m
+  [4;36;1mSQL (0.002271)[0m   [0;1mCREATE INDEX "index_sessions_on_session_id" ON "sessions" ("session_id")[0m
+  [4;35;1mSQL (0.000290)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002688)[0m   [0;1mCREATE TABLE "specs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer(11) NOT NULL, "first_name" varchar(255) DEFAULT '', "last_name" varchar(255) DEFAULT '', "gender" varchar(255), "birthdate" date, "occupation" varchar(255) DEFAULT '', "city" varchar(255) DEFAULT '', "state" varchar(255) DEFAULT '', "zip_code" varchar(255) DEFAULT '') [0m
+  [4;35;1mSQL (0.000318)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002632)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "screen_name" varchar(255), "email" varchar(255), "password" varchar(255), "created_at" datetime, "updated_at" datetime, "authorization_token" varchar(255)) [0m
+  [4;35;1mSQL (0.000288)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002384)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.002895)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000482)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000282)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.002420)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090510031630')[0m
+  [4;35;1mSQL (0.002190)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090508232714')[0m
+  [4;36;1mSQL (0.002604)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090508232801')[0m
+  [4;35;1mSQL (0.002602)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.002263)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090509004615')[0m
+  [4;35;1mSQL (0.001944)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090509112617')[0m
+  [4;36;1mSQL (0.000989)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000198)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000128)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000251)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002371)[0m   [0;1mCREATE TABLE "faqs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "bio" text, "skillz" text, "schools" text, "companies" text, "music" text, "movies" text, "television" text, "magazines" text, "books" text) [0m
+  [4;35;1mSQL (0.000278)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002269)[0m   [0;1mCREATE TABLE "sessions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "session_id" varchar(255) NOT NULL, "data" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.002808)[0m   [0mCREATE INDEX "index_sessions_on_updated_at" ON "sessions" ("updated_at")[0m
+  [4;36;1mSQL (0.002456)[0m   [0;1mCREATE INDEX "index_sessions_on_session_id" ON "sessions" ("session_id")[0m
+  [4;35;1mSQL (0.000299)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002289)[0m   [0;1mCREATE TABLE "specs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer(11) NOT NULL, "first_name" varchar(255) DEFAULT '', "last_name" varchar(255) DEFAULT '', "gender" varchar(255), "birthdate" date, "occupation" varchar(255) DEFAULT '', "city" varchar(255) DEFAULT '', "state" varchar(255) DEFAULT '', "zip_code" varchar(255) DEFAULT '') [0m
+  [4;35;1mSQL (0.000320)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002503)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "screen_name" varchar(255), "email" varchar(255), "password" varchar(255), "created_at" datetime, "updated_at" datetime, "authorization_token" varchar(255)) [0m
+  [4;35;1mSQL (0.000346)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002214)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.002582)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000485)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000285)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.002138)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090510031630')[0m
+  [4;35;1mSQL (0.002570)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090508232714')[0m
+  [4;36;1mSQL (0.002626)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090508232801')[0m
+  [4;35;1mSQL (0.002425)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.003122)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090509004615')[0m
+  [4;35;1mSQL (0.003117)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090509112617')[0m
+  [4;36;1mSQL (0.000946)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000215)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000130)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000237)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.003232)[0m   [0;1mCREATE TABLE "faqs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "bio" text, "skillz" text, "schools" text, "companies" text, "music" text, "movies" text, "television" text, "magazines" text, "books" text) [0m
+  [4;35;1mSQL (0.000251)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002292)[0m   [0;1mCREATE TABLE "sessions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "session_id" varchar(255) NOT NULL, "data" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.002566)[0m   [0mCREATE INDEX "index_sessions_on_updated_at" ON "sessions" ("updated_at")[0m
+  [4;36;1mSQL (0.001997)[0m   [0;1mCREATE INDEX "index_sessions_on_session_id" ON "sessions" ("session_id")[0m
+  [4;35;1mSQL (0.000234)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002442)[0m   [0;1mCREATE TABLE "specs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer(11) NOT NULL, "first_name" varchar(255) DEFAULT '', "last_name" varchar(255) DEFAULT '', "gender" varchar(255), "birthdate" date, "occupation" varchar(255) DEFAULT '', "city" varchar(255) DEFAULT '', "state" varchar(255) DEFAULT '', "zip_code" varchar(255) DEFAULT '') [0m
+  [4;35;1mSQL (0.000312)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002661)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "screen_name" varchar(255), "email" varchar(255), "password" varchar(255), "created_at" datetime, "updated_at" datetime, "authorization_token" varchar(255)) [0m
+  [4;35;1mSQL (0.000324)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002732)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.002450)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000474)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000278)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.002750)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090510031630')[0m
+  [4;35;1mSQL (0.002334)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090508232714')[0m
+  [4;36;1mSQL (0.002265)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090508232801')[0m
+  [4;35;1mSQL (0.002551)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.002453)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090509004615')[0m
+  [4;35;1mSQL (0.002841)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090509112617')[0m
+  [4;36;1mSQL (0.000930)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000372)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000143)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000247)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002751)[0m   [0;1mCREATE TABLE "faqs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "bio" text, "skillz" text, "schools" text, "companies" text, "music" text, "movies" text, "television" text, "magazines" text, "books" text) [0m
+  [4;35;1mSQL (0.000252)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002007)[0m   [0;1mCREATE TABLE "sessions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "session_id" varchar(255) NOT NULL, "data" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.001918)[0m   [0mCREATE INDEX "index_sessions_on_updated_at" ON "sessions" ("updated_at")[0m
+  [4;36;1mSQL (0.013840)[0m   [0;1mCREATE INDEX "index_sessions_on_session_id" ON "sessions" ("session_id")[0m
+  [4;35;1mSQL (0.000350)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.016106)[0m   [0;1mCREATE TABLE "specs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer(11) NOT NULL, "first_name" varchar(255) DEFAULT '', "last_name" varchar(255) DEFAULT '', "gender" varchar(255), "birthdate" date, "occupation" varchar(255) DEFAULT '', "city" varchar(255) DEFAULT '', "state" varchar(255) DEFAULT '', "zip_code" varchar(255) DEFAULT '') [0m
+  [4;35;1mSQL (0.001037)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002773)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "screen_name" varchar(255), "email" varchar(255), "password" varchar(255), "created_at" datetime, "updated_at" datetime, "authorization_token" varchar(255)) [0m
+  [4;35;1mSQL (0.000366)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002550)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.176694)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000323)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000111)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.012231)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090510031630')[0m
+  [4;35;1mSQL (0.002347)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090508232714')[0m
+  [4;36;1mSQL (0.002558)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090508232801')[0m
+  [4;35;1mSQL (0.003012)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.002412)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090509004615')[0m
+  [4;35;1mSQL (0.002340)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090509112617')[0m
+  [4;36;1mSQL (0.000941)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000192)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000126)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000241)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002284)[0m   [0;1mCREATE TABLE "faqs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "bio" text, "skillz" text, "schools" text, "companies" text, "music" text, "movies" text, "television" text, "magazines" text, "books" text) [0m
+  [4;35;1mSQL (0.000303)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002002)[0m   [0;1mCREATE TABLE "sessions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "session_id" varchar(255) NOT NULL, "data" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.002439)[0m   [0mCREATE INDEX "index_sessions_on_updated_at" ON "sessions" ("updated_at")[0m
+  [4;36;1mSQL (0.002383)[0m   [0;1mCREATE INDEX "index_sessions_on_session_id" ON "sessions" ("session_id")[0m
+  [4;35;1mSQL (0.000312)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002877)[0m   [0;1mCREATE TABLE "specs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer(11) NOT NULL, "first_name" varchar(255) DEFAULT '', "last_name" varchar(255) DEFAULT '', "gender" varchar(255), "birthdate" date, "occupation" varchar(255) DEFAULT '', "city" varchar(255) DEFAULT '', "state" varchar(255) DEFAULT '', "zip_code" varchar(255) DEFAULT '') [0m
+  [4;35;1mSQL (0.000309)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002382)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "screen_name" varchar(255), "email" varchar(255), "password" varchar(255), "created_at" datetime, "updated_at" datetime, "authorization_token" varchar(255)) [0m
+  [4;35;1mSQL (0.000445)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002925)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.002420)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000482)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000173)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.002691)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090510031630')[0m
+  [4;35;1mSQL (0.001786)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090508232714')[0m
+  [4;36;1mSQL (0.002135)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090508232801')[0m
+  [4;35;1mSQL (0.002339)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.003112)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090509004615')[0m
+  [4;35;1mSQL (0.002080)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090509112617')[0m
+  [4;36;1mSQL (0.000934)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000217)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.000132)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000241)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002272)[0m   [0;1mCREATE TABLE "faqs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer NOT NULL, "bio" text, "skillz" text, "schools" text, "companies" text, "music" text, "movies" text, "television" text, "magazines" text, "books" text) [0m
+  [4;35;1mSQL (0.000264)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002154)[0m   [0;1mCREATE TABLE "sessions" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "session_id" varchar(255) NOT NULL, "data" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.002545)[0m   [0mCREATE INDEX "index_sessions_on_updated_at" ON "sessions" ("updated_at")[0m
+  [4;36;1mSQL (0.002112)[0m   [0;1mCREATE INDEX "index_sessions_on_session_id" ON "sessions" ("session_id")[0m
+  [4;35;1mSQL (0.000261)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002269)[0m   [0;1mCREATE TABLE "specs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "user_id" integer(11) NOT NULL, "first_name" varchar(255) DEFAULT '', "last_name" varchar(255) DEFAULT '', "gender" varchar(255), "birthdate" date, "occupation" varchar(255) DEFAULT '', "city" varchar(255) DEFAULT '', "state" varchar(255) DEFAULT '', "zip_code" varchar(255) DEFAULT '') [0m
+  [4;35;1mSQL (0.000291)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002551)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "screen_name" varchar(255), "email" varchar(255), "password" varchar(255), "created_at" datetime, "updated_at" datetime, "authorization_token" varchar(255)) [0m
+  [4;35;1mSQL (0.000397)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002625)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.002357)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000480)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000286)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.002463)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090510031630')[0m
+  [4;35;1mSQL (0.002765)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090508232714')[0m
+  [4;36;1mSQL (0.002541)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090508232801')[0m
+  [4;35;1mSQL (0.002538)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090508233247')[0m
+  [4;36;1mSQL (0.002183)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090509004615')[0m
+  [4;35;1mSQL (0.001996)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090509112617')[0m

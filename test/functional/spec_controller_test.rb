@@ -90,14 +90,14 @@ class SpecControllerTest < Test::Unit::TestCase
        assert_tag "li", :content => /#{field.humanize}/
      end
 
-     error_div = { :tag => "div",
+     error_div_spec = { :tag => "div",
                    :attributes => { :class => "fieldWithErrors" } }
 
      # Test to see that the input fields are being wrapped with the correct div.
      Spec::STRING_FIELDS.each do |field|
        assert_input_field "spec[#{field}]", too_long_string, "text",
                           HTML_TEXT_FIELD_SIZE, DB_STRING_MAX_LENGTH,
-                          :parent => error_div
+                          :parent => error_div_spec
     end
 
   end

@@ -40,7 +40,7 @@ class Test::Unit::TestCase
     end
   end
   
-  ERROR_DIV = { :tag => "div", :attributes => { :class => "fieldWithErrors" } }
+  # ERROR_DIV = { :tag => "div", :attributes => { :class => "fieldWithErrors" } }
 
   # Assert existence of form input field with attributes.
   def assert_input_field(name, value, field_type, size, maxlength, options = {})   

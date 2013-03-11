@@ -1,0 +1,25 @@
+/Users/whitemac/.rvm/rubies/ruby-1.8.7-p371/bin/ruby -Ilib:test "/Users/whitemac/.rvm/gems/ruby-1.8.7-p371@railsspace/gems/rake-0.8.2/lib/rake/rake_test_loader.rb" "test/unit/faq_test.rb" "test/unit/spec_test.rb" "test/unit/user_test.rb" 
+(in /Users/whitemac/source/railsspace)
+Loaded suite /Users/whitemac/.rvm/gems/ruby-1.8.7-p371@railsspace/gems/rake-0.8.2/lib/rake/rake_test_loader
+Started
+..................
+Finished in 6.310944 seconds.
+
+18 tests, 110 assertions, 0 failures, 0 errors
+/Users/whitemac/.rvm/rubies/ruby-1.8.7-p371/bin/ruby -Ilib:test "/Users/whitemac/.rvm/gems/ruby-1.8.7-p371@railsspace/gems/rake-0.8.2/lib/rake/rake_test_loader.rb" "test/functional/community_controller_test.rb" "test/functional/faq_controller_test.rb" "test/functional/profile_controller_test.rb" "test/functional/site_controller_test.rb" "test/functional/spec_controller_test.rb" "test/functional/user_controller_test.rb" 
+Loaded suite /Users/whitemac/.rvm/gems/ruby-1.8.7-p371@railsspace/gems/rake-0.8.2/lib/rake/rake_test_loader
+Started
+..........................
+Finished in 0.552084 seconds.
+
+26 tests, 130 assertions, 0 failures, 0 errors
+/Users/whitemac/.rvm/rubies/ruby-1.8.7-p371/bin/ruby -Ilib:test "/Users/whitemac/.rvm/gems/ruby-1.8.7-p371@railsspace/gems/rake-0.8.2/lib/rake/rake_test_loader.rb" "test/integration/remember_me_test.rb" 
+Loaded suite /Users/whitemac/.rvm/gems/ruby-1.8.7-p371@railsspace/gems/rake-0.8.2/lib/rake/rake_test_loader
+Started
+1
+42
+1
+.
+Finished in 0.124237 seconds.
+
+1 tests, 2 assertions, 0 failures, 0 errors

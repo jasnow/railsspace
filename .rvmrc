@@ -1,0 +1,1 @@
+rvm --default use ruby-1.8.7@railsspace --create
